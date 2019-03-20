@@ -25,11 +25,13 @@ date_format = "Jan 2006"
   date_start = "2013-01-01"
   date_end = ""
   description = """
-  Programs:
+  Courses offered:
   
-  * Social Data Analytics and Research 
-  * Political Science
+  * Data Methods
+  * Data Visualization
   * Public Policy and Political Economy
+  * Politics of China and East Asia
+  * Policy in China
   """
 
 [[experience]]
