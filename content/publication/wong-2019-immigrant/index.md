@@ -4,7 +4,7 @@ date = 2019-01-01
 authors = ["Stan Hok-Wui Wong", "Kuan-Chen Lee", "Karl Ho", "Harold D Clarke"]
 publication_types = ["2"]
 abstract = ""
-featured = false
+featured = true
 publication = "*Electoral Studies*"
 +++
 
