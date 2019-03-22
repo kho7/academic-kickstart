@@ -84,7 +84,7 @@ University of Texas at Dallas
 
 Since his election in November 2016, Donald Trump has repeatedly claimed that he is responsible for a surge in the performance of the American economy.  In this poster, my co-authors, Karl Ho (University of Texas at Dallas) and Marianne Stewart (University of Texas at Dallas) and I will present the results of analyses of trends in the performance of the macro-economy over the period from January 2009 to February 2019.  A principal focus is the stock-market.  Using EGARCH models we will analyze if the dynamics of the mean and variance of major market indices (Dow Jones, S&P 500, NASDAQ) have varied systematically since Trump became president.  We also will conduct similar analyses for other major macro-economic indicators such as growth and unemployment, with the latter considered for population sub-groups such as African-Americans, Hispanics and women.  Data for the analyses are downloaded from the FRED (Federal Reserve Bank of St. Louis) Database website.
 
-[Poster](/files/PosterTexmeth2019.pdf) presented at the 2019 Texas Methodology Conference at the Rice University.
+[Poster](/files/PosterTexmeth2019.pdf) presented at the 2019 Texas Methodology Conference at the Rice University, March 22-23.
 ---
 
 
