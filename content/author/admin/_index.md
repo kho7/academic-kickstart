@@ -19,7 +19,7 @@ organizations = [ { name = "University of Texas at Dallas", url = "https://epps.
 bio = "My research interests include data methods, Taiwan elections, politics and policy in China, East Asia."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = ""
+email = "karlho@gmail.com"
 
 # List (academic) interests or hobbies
 interests = [
