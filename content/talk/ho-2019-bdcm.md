@@ -5,8 +5,6 @@ location: UTD Big Data Management Conference, ECSS Building
 draft: false
 ---
 
-# test
-
 [poster](https://utdallas.app.box.com/v/bdmconf)
 
 [notebook](https://datageneration.org/bdm)
