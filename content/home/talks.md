@@ -68,7 +68,7 @@ subtitle = ""
  css_class = ""
 +++
 
-Title: "Data Production and Collection Methods"
+# Title: "Data Production and Collection Methods"
 
 Date: 2019-03-09 8:30 to 11:00 am
 
