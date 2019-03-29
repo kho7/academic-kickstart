@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Social Data Analytics and Political Research: New Public Opinion and Data tools</title>
+
+		<meta name="description" content="Presentation prepared for Soochow University">
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-white-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-id="5717cf0885974cfc21342c0e33483fc7"><title>Social and Political Data Science: Introduction</title>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 996px; left: -18px; top: 350px;" data-block-id="984e81233433a187bdba8b2a42c59230">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<p><span style="font-size:1.0em">Karl Ho</span></p>
+
+<p><span style="font-size:1.0em">School of Economic, Political and Policy Sciences</span></p>
+
+<p><span style="font-size:1.0em">University of Texas at Dallas</span></p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 913px; left: 38px; top: 58px;" data-block-id="d0cd409fc55309703fe423c972b1257c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h2>Social Data Analytics and Political Research: New Public Opinion and Data tools</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 792px; left: 88px; top: 560px;" data-block-id="eb5330d60ca2c8fd480356db840fa870"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" dir="ui">
+<p>Presentation prepared for the Soochow University, Taipei, Taiwan,  July 6th, 2018</p>
+</div></div></section><section data-id="e6258be6eaab52c2a14a624a057cefbe">
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 837px; left: 69px; top: 48px;" data-block-id="9fa1b5862cb83dc645be02f5baa3e8fe"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-fragment-index="0">
+<h3 style="text-align:left">Social data analytics research and education programs have provided new directions and technologies to collect and analyze public opinion via social listening, web scraping and text mining. </h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 837px; left: 69px; top: 335px;" data-block-id="03e59e5d97651e4c82784387af2700c1"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="1">
+<h3 style="text-align:left">How the new trends open venues for political researchers to study public sentiments on policies, congressional performance and electoral choices?  </h3>
+</div></div></section><section data-id="9a8df563e85a76e91f67a5a454221eb2">
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 837px; left: 62px; top: 70px;" data-block-id="b92ed91876acbc9d06fd3de59b6360d9"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="0">
+<h3 style="text-align:left">This presentation will provide new alternative ideas for political researchers to factor in in their agenda and curricular design to train next generations of researchers.   Discussion points will be outlined to facilitate exchange of innovative ideas across subfields and disciplines pertaining to the newly emerged discipline of social data science. </h3>
+</div></div></section><section class="stack" data-id="feab229dc592cc3bd648df98f838e924"><section data-id="5c616d960a35732556a9007bca4392c2"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 266px; height: auto;" data-block-id="715178aa448371d9be6f9f4d6af9b8b0"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>What is Data Analytics?</h1>
+</div></div></section><section data-id="ac24e5396945b8718d435feeeeee9498">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 877px; left: 42px; top: 47px;" data-block-id="0041314ad74db0a3ddc061a7c2122f94"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Data Analytics vs.</h2>
+
+<h2>Data Analysis</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 81px; top: 221px;" data-block-id="7409592ec990e2fc9fa4f2eba4f3e5cc"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="1">
+<h3 style="text-align:left">Data analytics refers to generation, acquisition, management, modeling and visualization of data.</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 81px; top: 410px;" data-block-id="9c158de2bbeda7b69d2ff223cc86e21a"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="2">
+<h3 style="text-align:left">Thomas Davenport and his colleagues (2007) emphasize the ability to "collect, analyze and act on data".</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 948px; left: 12px; top: 617px;" data-block-id="b65f944d6a15bf2f10882ec3d1808752"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<pre style="text-align:left"><span style="font-size:0.5em">Davenport, Thomas H., and Jeanne G. Harris. 2007. <em>Competing on analytics: The new science of winning</em>. Harvard Business Press.</span></pre>
+</div></div></section><section data-id="0291836854dbb841346067f5ec23d3c6">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 877px; left: 42px; top: 47px;" data-block-id="c2c0a14e8575171c9da197c8abd8bd26"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Data Analytics vs.</h2>
+
+<h2>Data Analysis</h2>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 822px; left: 89px; top: 220px;" data-block-id="df469840b9f549ca1f91227d0e1c032a"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="1">
+<h3 style="text-align:left">Data analytics goes beyond only providing analysis of data but focuses on the action or decision making informed by data.</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 822px; left: 88px; top: 450px;" data-block-id="4dd7c8a02f206eafe150660ef25d261c"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="2">
+<h3 style="text-align:left"><span style="text-align:left">Social data was initially referred as to data generated from social media.  It is now not confined to that generation mode but is more generally data generated by people or users.</span></h3>
+</div></div></section></section><section class="stack" data-id="468aa1c5c3a624bc3a8fbebbfa0a5160"><section data-id="112da1e18b3c8470fd8c029d49ddb76a">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 877px; left: 42px; top: 47px;" data-block-id="f04492f64ddc469fb4f46237ead44c7d"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Social Data Analytics: A journey just set afoot</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 81px; top: 232px;" data-block-id="038814e4eba46d0fa5970e8814d77439"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="1">
+<h3 style="text-align:left">Social data was initially referred to data generated from social media.  It is now not confined to that generation mode but is more generally data generated by people or users.</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 513px;" data-block-id="d5c7c1b352db90f0910c54c2dc6810fd"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="2">
+<h3 style="text-align: left;">Social data analytics encompasses the generation, management, modeling and visualization of social data.</h3>
+</div></div></section><section data-id="36d61206cb10d25e229292b1639af120">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 81px; top: 70px;" data-block-id="92b62e31a0195b6048e20dc27c7050b2"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-fragment-index="0">
+<h3 style="text-align:left">.... social science is beginning to shape the world of big data. </h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 197px;" data-block-id="1c8f35ff8c6506ba78953af370b2f032"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="1">
+<h3 style="text-align:left">Much of big data is social data.... It is the responsibility of social scientists to assume their central place in the world of big data, to shape the questions we ask of big data, and to characterize what does and does not make for a convincing answer. </h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 691px; left: 259px; top: 578px;" data-block-id="1023fdf4b4ef0fa1518e15dd93fd5032"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="2">
+<p style="text-align:right">- Monroe, Pan, Roberts, Sen and Sinclair 2015</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 969px; left: 6px; top: 630px;" data-block-id="2fd6fe0c8b5babb6627e188bdc704948"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="3">
+<p style="text-align:left"><a href="https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/no-formal-theory-causal-inference-and-big-data-are-not-contradictory-trends-in-political-science/FBAE794AFA84027831B8AD53B0659D58" target="_blank"><span style="font-size:0.5em">Monroe, B.L., Pan, J., Roberts, M.E., Sen, M. and Sinclair, B., 2015. No! Formal theory, causal inference, and big data are not contradictory trends in political science. PS: Political Science &amp; Politics, 48(1), pp.71-74.</span></a></p>
+</div></div></section></section><section data-id="663a65b504aaa0989e0a5d700780dfd5"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 42px; height: auto;" data-block-id="4280fdabd7b573817c35c2a74d899540"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h3>Lazer et al. 2009 Life in the network</h3>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 800px; height: 532px; left: 77px; top: 122px; min-width: 4px; min-height: 4px;" data-block-id="f6123364610cebba3486be658cad32b1"><div class="sl-block-content fragment" style="z-index: 11;" data-fragment-index="1"><img style="" data-natural-width="629" data-natural-height="418" data-lazy-loaded="" data-src="deck-61/4403ce31cf0871a066aa23325411e58e.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 957px; left: 5px; top: 583px;" data-block-id="2999144f5ef417bee81f21dc73b46f89"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="2">
+<p style="text-align:left"><span style="font-size:0.5em"><span style="text-align:left">This figure summarizes the link structure within a community of political blogs (from 2004), where red nodes indicate conservative blogs, and blue liberal. Orange links go from liberal to conservative, and purple ones from conservative to liberal. The size of each blog reflects the number of other blogs that link to it</span></span></p>
+</div></div></section><section data-id="13a8a11661ad9ae8c6bf7dd318b86e66"><div class="sl-block" data-block-type="text" style="height: auto; width: 851px; left: 55px; top: 49px;" data-block-id="d25c4ace86db5f6812cf2b50bb91994c"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Cumulated/Repeated Data</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 720px; height: 549px; left: 120px; top: 123px; min-width: 4px; min-height: 4px;" data-block-id="88ac48f241148de94b3555263b596793"><a class="sl-block-content fragment" style="z-index: 11;" href="http://www.nytimes.com/interactive/2012/10/15/us/politics/swing-history.html" target="_blank" data-fragment-index="1"><img data-natural-width="588" data-natural-height="448" style="" data-lazy-loaded="" data-src="deck-61/632a8ffe28077c6894362e7532a2374f.png"></a></div></section><section data-id="5f3c76e7238342f304d8c4c639c03127"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 152px; height: auto;" data-block-id="c03e5edf353ea2879adeca85c69c3d07"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>A Theory of Data: Understanding Data Generation Process</h2>
+</div></div></section><section class="stack" data-id="a8c3fbdf6b3f1e3101a1ac8dd2e8ead4"><section data-id="cc0a0322ebbd75733d4e425519d64d7b"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 42px; height: auto;" data-block-id="5b1eb859697224e70d97bfec42738119"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Data Generation Process</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 806px; height: 596px; left: 80px; top: 116px; min-width: 4px; min-height: 4px;" data-block-id="aba65526af90e115a130e6961da39f6d"><div class="sl-block-content fragment" style="z-index: 11;" data-fragment-index="1"><img style="" data-natural-width="1826" data-natural-height="1350" data-lazy-loaded="" data-src="deck-61/ad57434416fab504c476352d0fbcec1f.png"></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 206px; top: 508px;" data-block-id="90834d78582cf556f425ab8e4f27e0ec"><div class="sl-block-style" style="z-index: 12; opacity: 0.85;"><div class="sl-block-content fragment" data-line-x1="0" data-line-y1="200" data-line-x2="493" data-line-y2="200" data-line-color="#ff0000" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 12;" data-line-style="dotted" data-line-width="14px" data-fragment-index="2"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="493" height="1" viewbox="0 200 493 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="200" x2="483" y2="200"></line><line stroke="#ff0000" stroke-width="14" stroke-dasharray="0 27.388888888888893" stroke-linecap="round" x1="0" y1="200" x2="483" y2="200"></line><path style="fill: rgba(0,0,0,0);" stroke="#ff0000" stroke-width="14" transform="translate(483,200) rotate(90)" d="M 31.5 31.5 L 0 0 L -31.5 31.5"></path></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 419px; height: 593px; left: 481px; top: 102px;" data-block-id="881c76cb6ce2b47a9ebca35792ea10a5"><div class="sl-block-style" style="z-index: 13; transform: rotate(360deg);"><div class="sl-block-content fragment" data-shape-type="circle" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 13;" data-shape-stroke-color="#ff0000" data-shape-stroke-width="4" data-fragment-index="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 419 593"><defs><clippath id="shape-mask-3-1530858574068"><ellipse rx="209.5" ry="296.5" cx="209.5" cy="296.5"></ellipse></clippath></defs><ellipse rx="209.5" ry="296.5" cx="209.5" cy="296.5" clip-path="url(#shape-mask-3-1530858574068)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ff0000" stroke-width="8"></ellipse></svg></div></div></div></section><section data-id="4032203849c7c319e10164ff72a0c6dd"><div class="sl-block" data-block-type="text" style="width: 384px; left: 48px; top: 193px; height: auto;" data-block-id="ff6d6ba42d6feb582a655712d4155ed7"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;" data-fragment-index="0">
+<h3>Made Data</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 48px; top: 298px; height: auto;" data-block-id="b2ffda27a545269e7954450a2bd1d7eb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 12;">
+<ul>
+	<li class="fragment" data-fragment-index="2">Small sample</li>
+	<li class="fragment" data-fragment-index="4">Known Sample/Population</li>
+	<li class="fragment" data-fragment-index="6">Data collection: controlled, pre-planned</li>
+	<li class="fragment" data-fragment-index="8">Data model</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 528px; top: 193px; height: auto;" data-block-id="fda8ad0e6df3c0a5c9e81ecaf68e8906"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 13;" data-fragment-index="1">
+<h3>Found Data</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 384px; left: 528px; top: 298px; height: auto;" data-block-id="9d29215e1efaeb0df051ee952625d110"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 14;">
+<ul>
+	<li class="fragment" data-fragment-index="3">Big Sample</li>
+	<li class="fragment" data-fragment-index="5">Unknown sample/unknown population</li>
+	<li class="fragment" data-fragment-index="7">Data collection:<br>
+	Mining, scraping, semi-planned extraction</li>
+	<li class="fragment" data-fragment-index="9">Algorithmic model</li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 42px; height: auto;" data-block-id="8fa5e61ca3a5aa6f9f1bb826da4f57df"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 15;" data-fragment-index="0">
+<h2>Data Generation Process</h2>
+</div></div></section></section><section data-id="e8a2021b4bd5e040d0adcee45c17b239"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="c714fd5d3706fb58d4d153758fda3e54"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>A Taxonomy of Data</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 192px; height: auto;" data-block-id="752acab3f8b90a6060344669b5941915"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ol>
+	<li class="fade-up fragment" data-fragment-index="0">
+	<h3>Numbers</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="1">
+	<h3>Text</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="2">
+	<h3>Images</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="3">
+	<h3>Audio</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="4">
+	<h3>Video</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="5">
+	<h3>Signals</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="6">
+	<h3>Data of data: Metadata and Paradata</h3>
+
+	<p> </p>
+	</li>
+</ol>
+</div></div></section><section data-id="01c6a2699e5b57c13cceb4e5e391a187"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="287f02dc7466d0ac11d4de6b28f36497">
+    <div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Data Methods</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 151px; height: auto;" data-block-id="47ea859431dc74390bdbe448a21ddd4a">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ol>
+	<li class="fade-up fragment" data-fragment-index="1">
+	<h3>Survey</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="2">
+	<h3>Experiments</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="3">
+	<h3>Qualitative Data</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="4">
+	<h3>Text Data</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="5">
+	<h3>Web Data</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="6">
+	<h3>Machine Data</h3>
+	</li>
+	<li class="fragment" data-fragment-index="7">
+	<h3>Complex Data</h3>
+
+	<ol>
+		<li class="fragment" data-fragment-index="7">
+		<h3>Network Data</h3>
+		</li>
+		<li class="fragment" data-fragment-index="8">
+		<h3>Multiple-source linked Data</h3>
+		</li>
+	</ol>
+	</li>
+</ol>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="22243d53f3110c93489ac65e0c725c7f" style="height: auto; min-width: 30px; min-height: 30px; width: 293px; left: 694px; top: 174px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="10">
+<h3>Made</h3>
+
+<h3>Data</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="97a399568be2c5bd84f610a93c203056" style="height: auto; min-width: 30px; min-height: 30px; width: 338px; left: 560px; top: 107px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" data-fragment-index="9">
+<h1><span style="font-size:3.0em"><span style="color:#FF0000">}</span></span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 338px; left: 560px; top: 311px;" data-block-id="2afdea99cecb8638eef44d92d074aeba"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" data-fragment-index="11">
+<h1><span style="font-size:3.0em"><span style="color:#FF0000">}</span></span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 293px; left: 694px; top: 402px;" data-block-id="9613f2f0cd8e028e94e7f3a4cf31b540"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;" data-fragment-index="12">
+<h3>Found</h3>
+
+<h3>Data</h3>
+</div></div></section><section class="stack" data-id="e04fbd889be307a89498823011804201"><section data-id="99b8cbfeb675ef6bebf4df9d38531719"><div class="sl-block" data-block-type="text" style="height: auto; width: 851px; left: 55px; top: 49px;" data-block-id="ddc1ed88488ac282f8e8fa33d095fde4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>Statistical Modeling:<br>
+The Two Cultures </h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 825px; left: 68px; top: 210px;" data-block-id="9a7426a8701901fa138c5a3c41851f87"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui" data-fragment-index="0">
+<h3 style="text-align:left">Leo Breiman 2001: <em>Statistical Science</em> </h3>
+</div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 320px; left: 80px; top: 280px;" data-block-id="140cb589b76a308b007c054644e3b095"><div class="sl-block-content fragment" style="z-index: 12;" data-table-cols="1" data-table-rows="1" data-fragment-index="1"><table><tbody><tr><th>One assumes that the data are generated by a given stochastic data model.</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 317px; left: 563px; top: 280px;" data-block-id="d4f7f6f845cf3e84d7a9e8cde62ff5bb"><div class="sl-block-content fragment" style="z-index: 13;" data-table-cols="1" data-table-rows="1" data-fragment-index="2"><table><tbody><tr><th>The other uses algorithmic models and treats the data mechanism as unknown.</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 319px; left: 81px; top: 521px;" data-block-id="eee438c81a9c2b86dbf761558e933d12"><div class="sl-block-content fragment" style="z-index: 14; text-align: center;" data-table-cols="1" data-table-rows="1" data-fragment-index="3"><table><tbody><tr><th>Data Model</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 319px; left: 563px; top: 521px;" data-block-id="344baa473fc5a17e5a87c504703747b2"><div class="sl-block-content fragment" style="z-index: 15; text-align: center;" data-table-cols="1" data-table-rows="1" data-fragment-index="4"><table><tbody><tr><th>Algorithmic Model</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 319px; left: 80px; top: 596px;" data-block-id="304ca31443aca2f01ae79c4ac8beb0bf"><div class="sl-block-content fragment" style="z-index: 16; text-align: center;" data-table-cols="1" data-table-rows="1" data-fragment-index="5"><table><tbody><tr><th>Small data</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 319px; left: 562px; top: 596px;" data-block-id="4b183777f3e8ba7fa54af27337973b2d"><div class="sl-block-content fragment" style="z-index: 17; text-align: center;" data-table-cols="1" data-table-rows="1" data-fragment-index="6"><table><tbody><tr><th>Complex, big data</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 241px; top: 487px;" data-block-id="6722aae37b9083678ddd048e5e16b3df"><div class="sl-block-content fragment" data-line-x1="0" data-line-y1="193" data-line-x2="0" data-line-y2="159" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 18;" data-fragment-index="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="34" viewbox="0 159 1 34"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="193" x2="0" y2="159"></line><line stroke="#000000" stroke-width="2" x1="0" y1="193" x2="0" y2="159"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 721px; top: 487px;" data-block-id="95287c7fbee1f3599f7d0b591fa0a65a"><div class="sl-block-content fragment" data-line-x1="0" data-line-y1="193" data-line-x2="0" data-line-y2="159" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 19;" data-fragment-index="4"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="34" viewbox="0 159 1 34"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="193" x2="0" y2="159"></line><line stroke="#000000" stroke-width="2" x1="0" y1="193" x2="0" y2="159"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 241px; top: 572px;" data-block-id="b56d039b91bf02740120a016b9ffc07a"><div class="sl-block-content fragment" data-line-x1="1" data-line-y1="183" data-line-x2="1" data-line-y2="159" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 20;" data-fragment-index="5"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="24" viewbox="1 159 1 24"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="1" y1="183" x2="1" y2="159"></line><line stroke="#000000" stroke-width="2" x1="1" y1="183" x2="1" y2="159"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 720px; top: 572px;" data-block-id="cb5e027d042722ddfc49d23d8a57035b"><div class="sl-block-content fragment" data-line-x1="1" data-line-y1="183" data-line-x2="1" data-line-y2="159" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 21;" data-fragment-index="6"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="24" viewbox="1 159 1 24"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="1" y1="183" x2="1" y2="159"></line><line stroke="#000000" stroke-width="2" x1="1" y1="183" x2="1" y2="159"></line></svg></div></div></section><section data-id="24ba4ed9acbf50cc8efff760f7872094"><div class="sl-block" data-block-type="text" style="height: auto; width: 851px; left: 55px; top: 49px;" data-block-id="62b632b6ea96f965ec0aeed905e41ddf"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>Theory:<br>
+Data Generation Process</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 81px; top: 235px;" data-block-id="11a256d417d0ccf3b1621837647c254e"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<p style="text-align:left"><span style="font-size:1.2em">Data are generated in many fashions.   Picture this: independent variable x goes in one side of the box-- we call it nature for now-- and dependent variable y come out from the other side.</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 545px; height: 136px; left: 209px; top: 494px; min-width: 4px; min-height: 4px;" data-block-id="1178155671067b19de0d96f7bc52b00f"><div class="sl-block-content fragment" style="z-index: 12;" data-fragment-index="1"><img data-natural-width="401" data-natural-height="100" style="" data-lazy-loaded="" data-src="deck-61/9df5077db6861261577fe4518d112196.png"></div></div></section><section data-id="882298bdf90cad521ea08b3640194c62"><div class="sl-block" data-block-type="text" style="height: auto; width: 851px; left: 55px; top: 18px;" data-block-id="8f5fce87ddf4fdab1d08e67f3fa63702"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>Theory:<br>
+Data Generation Process</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 185px;" data-block-id="01c2e7f5654ae06badcbaa352c75b7c9"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<h3>Data Model</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 799px; left: 81px; top: 253px;" data-block-id="19a8359f07ff30a4d53548c87e57b828"><div class="sl-block-style" style="z-index: 12;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="1">
+<p style="text-align: left;">The analysis in this culture starts with assuming a stochastic data model for the inside of the black box. For example, a common data model is that data are generated by independent draws from response variables.</p>
+</div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 799px; left: 81px; top: 467px;" data-block-id="35914dd934da2851077af28e25723685"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="2">
+<p style="text-align:left"><span style="font-size:1.0em">Response Variable= f(Predictor variables, random noise, parameters)</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 560px;" data-block-id="c52779719efb14e86c2177d1cf808089"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" data-fragment-index="3">
+<p style="text-align: left;">Reading the response variable is a function of a series of predictor/independent variables, plus random noise (normally distributed errors) and other parameters.  </p>
+</div></div></section><section data-id="47b02dbbad614bfdeea208d6b547e6e1"><div class="sl-block" data-block-type="text" style="height: auto; width: 851px; left: 55px; top: 18px;" data-block-id="e12b9f53f073f7737dd876f5fb064393"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>Theory:<br>
+Data Generation Process</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 185px;" data-block-id="4c1df92f101674b51a7b6c19a1d5a5bc"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<h3>Data Model</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 799px; left: 81px; top: 432px;" data-block-id="98a1f4b9faab9f0c9bb52ec046ce3312"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="2">
+<p style="text-align:left"><span style="font-size:1.0em">The values of the parameters are estimated from the data and the model then used for information and/or prediction. </span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 451px; height: 128px; left: 255px; top: 286px; min-width: 4px; min-height: 4px;" data-block-id="d764ba10ff67f1a3d67960aed89c963b"><div class="sl-block-content fragment" style="z-index: 13;" data-fragment-index="1"><img data-natural-width="451" data-natural-height="128" style="" data-lazy-loaded="" data-src="deck-61/d9f00ca34a56ff4abd53e1842d99a0cd.png"></div></div></section><section data-id="623fee17735f93c8dc6c49cc782c9714"><div class="sl-block" data-block-type="text" style="height: auto; width: 851px; left: 55px; top: 18px;" data-block-id="c4d4cad60fbea03fc8333224b41e4815"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>Theory:<br>
+Data Generation Process</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 185px;" data-block-id="feca5603da97736468cd3bceb6234670"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<h3> Algorithmic Modeling</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 799px; left: 81px; top: 256px;" data-block-id="ffad6dc16e5aef685e528dfe32a08d84"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="1">
+<p style="text-align:left">The analysis in this approach considers the inside of the box complex and unknown. Their approach is to find a function f(x)-an algorithm that operates on x to predict the responses y.<span style="font-size:1.0em"> </span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 81px; top: 430px;" data-block-id="6b55dc326ee935b49fd64bc4b4613a11"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="2">
+<p style="text-align: left;">The goal is to find algorithm that accurately predicts y.</p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 488px; height: 196px; left: 237px; top: 490px; min-width: 4px; min-height: 4px;" data-block-id="9dba16f7ca193d2f022c9825066cbf54"><div class="sl-block-content fragment" style="z-index: 14;" data-fragment-index="3"><img data-natural-width="488" data-natural-height="196" style="" data-lazy-loaded="" data-src="deck-61/6457798f09c6eb579ce707dbc86fcedd.png"></div></div></section><section data-id="4f8060427da42ace70e4df0bbf9d2686"><div class="sl-block" data-block-type="text" style="height: auto; width: 851px; left: 55px; top: 18px;" data-block-id="6e0820c4826c04e80948ecc2145de217"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>Theory:<br>
+Data Generation Process</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 185px;" data-block-id="1b296c5badeb40ad88cfc91b15ebb304"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h3> Algorithmic Modeling</h3>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 344px; left: 536px; top: 599px;" data-block-id="374e43eaa59bcd79fc4ae233b74077bb"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="1">
+<p style="text-align:left">Unsupervised Learning</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 401px; left: 88px; top: 599px;" data-block-id="40a7b6f9c74a99e2a4bf156c8de18f71"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="1">
+<p style="text-align:left">Supervised Learning         vs. </p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 800px; height: 339px; left: 80px; top: 235px; min-width: 4px; min-height: 4px;" data-block-id="0f54cf8eab8904bc700b0122f418c34a"><div class="sl-block-content fragment" style="z-index: 14;" data-fragment-index="0"><img data-natural-width="649" data-natural-height="275" style="" data-lazy-loaded="" data-src="deck-61/7187beaf10783e075b63ebe9a3bbe8cb.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 88px; top: 638px;" data-block-id="7c316d8e9a7307c83b4b712a88f38af5"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" data-fragment-index="2">
+<p style="text-align: left;"><span style="font-size:0.5em">Source: https://www.mathworks.com</span></p>
+</div></div></section><section data-id="45655e2aa61134d0ef5fec5eff613c65"><div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 62px;" data-block-id="b141dc7c44843a2c512b6f4de06850f0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2><span style="font-size:1.0em">Algorithm and Inference</span></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 177px;" data-block-id="2c1c1249a437fced328b66352a26c9bc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h3 style="text-align: left;">Very broadly speaking, algorithms are what statisticians do while inference says why they do them.</h3>
+
+<p> </p>
+
+<h3 style="text-align: right;">- Efron and Hastie 2017</h3>
+</div></div></section></section><section class="stack" data-id="bd119fe55a008cda7ad1206c006ed038"><section data-id="675b581a84ac994a4d295f439b15bb09"><div class="sl-block" data-block-type="text" style="height: auto; width: 904px; left: 28px; top: 52px;" data-block-id="e35dc031701278ecfa60ad7985ae9280">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+        <h2>
+            <span style="font-size:1.0em">Machine Learning</span>
+        </h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 158px;" data-block-id="782f6c3a0761bb5609b0508c74125806">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="1">
+<h3 class="fragment" data-fragment-index="0" style="text-align:left">A Random Forest is an ensemble learning method that grows multivalued Decision Trees in different training sets. </h3>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 318px;" data-block-id="cebfdbce4545c0b02799d0d7e6ac52cc">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="2">
+<h3 class="fragment" data-fragment-index="0" style="text-align:left">To classify a new sample, input parameters are given to each tree in the forest to classify outcomes by taking the majority vote over all the trees in the forest. </h3>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 575px;" data-block-id="94d30e51a5a28887cf88f54175f29109">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" data-fragment-index="3">
+<h3 class="fragment" data-fragment-index="0" style="text-align:left">The Random Forest is a typical learning model with the goal of reducing variance.</h3>
+</div>
+</div></section><section data-id="c9ebd215065f49c61c2b53bd172cded2"><div class="sl-block" data-block-type="text" style="height: auto; width: 904px; left: 28px; top: 52px;" data-block-id="ba100b075e7e876c8e3d74dbc0102b69">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-fragment-index="0">
+<h2><span style="font-size:1.0em">Illustration: HKES</span></h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 158px;" data-block-id="285cba3c9ad8367a3e8f86fa717a35ba">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="1">
+<h3 class="fragment" data-fragment-index="1" style="text-align:left">Research Question:</h3>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 823px; left: 80px; top: 230px;" data-block-id="b61e785ebe225e117c14e36e3e04a556">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="2">
+<h3 class="fragment" data-fragment-index="1" style="text-align:left">What concerns Hong Kong people most?</h3>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 823px; left: 80px; top: 295px;" data-block-id="6e290544aae4e675749871b1e6b63ea4">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<ul>
+	<li class="fragment" data-fragment-index="3">
+	<h3 style="text-align:left">Choice-based conjoint analysis</h3>
+	</li>
+	<li class="fragment" data-fragment-index="4">
+	<h3 style="text-align:left">Survey respondents were asked to choose between two social/political reform proposals</h3>
+	</li>
+	<li class="fragment" data-fragment-index="5">
+	<h3 style="text-align:left">Each proposal consists of a set of reform items, representing three big concerns: (1) procedural democracy; (2) welfare benefits; (3) integration with mainland China</h3>
+	</li>
+</ul>
+
+<h3 style="text-align:left">Value of each reform item is randomly drawn</h3>
+</div>
+</div></section><section data-id="95b63c2db663a7e40a9be3d163f3eb68"><div class="sl-block" data-block-type="text" style="height: auto; width: 904px; left: 28px; top: 52px;" data-block-id="dc105a4b3f18792ce45d04af1b0b7195">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2><span style="font-size:1.0em">Illustration: HKES</span></h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 823px; left: 80px; top: 127px;" data-block-id="cd9ca8f7e9937fc7701db6ed71605485">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<ul>
+	<li class="fragment" data-fragment-index="0">
+	<h3 style="text-align: left;">Value of each reform item is randomly drawn</h3>
+	</li>
+	<li class="fragment" data-fragment-index="1">
+	<h3>Advantages of the conjoint design</h3>
+	</li>
+	<li class="fragment" data-fragment-index="2">
+	<h3>Respondents need not report preferences for individual items, thereby lowering the risk of preference falsification</h3>
+	</li>
+	<li class="fragment" data-fragment-index="3">
+	<h3>Pit all big theories in a single decision, so that we can rank order respondents’ major concern</h3>
+	</li>
+</ul>
+</div>
+</div></section><section data-id="528f92215ce70ec242024c5397c3ea55"><div class="sl-block" data-block-type="text" style="height: auto; width: 904px; left: 28px; top: 52px;" data-block-id="0d0989e0eaf3ed1a748eadba4537bc31">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h2><span style="font-size:1.0em">Illustration: HKES</span></h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 624px; height: 683px; left: 148px; top: 119px;" data-block-id="e05724407ea7c5ac8cee5462d93d0f64"><div class="sl-block-content fragment" style="z-index: 12;" data-fragment-index="0"><img style="" data-natural-width="1027" data-natural-height="1125" data-lazy-loaded="" data-src="deck-61/a3b0683aa9dbf5b70722a7bf267bf384.png"></div></div></section><section data-id="4562c3000410c4bdb4425eb09f31a214"><div class="sl-block" data-block-type="text" style="height: auto; width: 904px; left: 28px; top: 52px;" data-block-id="eaf96344726e3893b8ddcef4ad71e7b7">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-fragment-index="0">
+<h2><span style="font-size:1.0em">Illustration: HKES</span></h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="width: 778px; height: 852px; left: 64px; top: -92px; min-width: 4px; min-height: 4px;" data-block-id="037d811e77e0fcd9fc93ee9eb5ab528a"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="1027" data-natural-height="1125" data-lazy-loaded="" data-src="deck-61/a3b0683aa9dbf5b70722a7bf267bf384.png"></div></div></section><section data-id="6b30cd61929265bce1c834bec5f1d004"><div class="sl-block" data-block-type="text" style="height: auto; width: 904px; left: 28px; top: 52px;" data-block-id="277fc63b8b8171bb20856941477681c2">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h2><span style="font-size:1.0em">Illustration: HKES</span></h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 901px; height: 506px; left: 19px; top: 140px;" data-block-id="8d879795319ca782dd2dd46ace520d9d"><div class="sl-block-content fragment" style="z-index: 12;" data-fragment-index="0"><img style="" data-natural-width="2282" data-natural-height="1282" data-lazy-loaded="" data-src="deck-61/ebcbd36dac5a79ef18d58d5998e54677.png"></div></div></section><section data-id="dec398b971d0c9afa1f1ef5de42fa06b"><div class="sl-block" data-block-type="text" style="height: auto; width: 904px; left: 28px; top: 52px;" data-block-id="b1138ed12ea6c26ea6fe1ae2bba645bb">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+        <h2>
+            <span style="font-size:1.0em">Machine Learning</span>
+        </h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 140px;" data-block-id="7fc48b8caf52537a350d6e41ff94cc69">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="0">
+<h3 class="fragment" data-fragment-index="0" style="text-align:left">"when you present two systems to a company, a simple one with explanations that does ok, and a more complicated system that works better, every single time they will take the second. Every single time."</h3>
+
+<h3 class="fragment" data-fragment-index="0" style="text-align:left"> </h3>
+
+<h3 class="fragment" data-fragment-index="0" style="text-align: right;"><span style="font-size:0.9em">-  Yann LeCun, Director of AI research at Facebook  on Deep Learning</span></h3>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="0600c9e97191570f30b46b826ddd122f" style="height: auto; min-width: 30px; min-height: 30px; width: 880px; left: 72px; top: 630px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="1">
+<h3>Does the job, with no explanation or theory?</h3>
+</div></div></section></section><section data-id="0c7348230b188cdca5ddc8122be867fe"><div class="sl-block" data-block-type="text" style="height: auto; width: 904px; left: 28px; top: 42px;" data-block-id="b2e7cfd3e80fb3cbcdc85842c1bbe9c7">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+        <h2>
+            <span style="font-size:1.0em">Social (Data) Scientist's mission</span>
+        </h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 148px;" data-block-id="dc5143d1cefded415bf31a223b568e2d">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+        <h3 style="text-align:left">Two major areas to which social scientists can contribute, based on decades of experience and work with end users, are:</h3>
+        <ol>
+            <li class="fragment" data-fragment-index="1" style="text-align:left">
+                <h3>Inference                                   </h3>
+            </li>
+            <li class="fragment" data-fragment-index="2" style="text-align:left">
+                <h3>Data quality. </h3>
+            </li>
+        </ol>
+        <h3 class="fragment" data-fragment-index="3" style="text-align:right">- Foster 
+            
+            <em>et al.</em> 2016
+        
+        </h3>
+    </div>
+</div></section><section data-id="a8437036794da510324a9ae5134561b4"><div class="sl-block" data-block-type="text" style="height: auto; width: 904px; left: 28px; top: 42px;" data-block-id="2d4218f9ec7c6267544467da0844831f">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+        <h2>
+            <span style="font-size:1.0em">Social (Data) Scientist's mission</span>
+        </h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 148px;" data-block-id="4711e2eb1df1fcd4498a838ba3d82780">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<h3 style="text-align:left">Compared to computer scientists and business analytics researchers, we are distinct in not only our familiarity with data, statistical models and inference. </h3>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 376px;" data-block-id="ddf460d38a07874e8ec9bfa891499016">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="1">
+<h3 style="text-align:left">Social scientists pursue a good cause, something we can contribute: to make a difference, to bring public good and to shape a better society.</h3>
+</div>
+</div></section><section data-id="be56e6cc9c3d7bc6882fce5cab44d2c0"><div class="sl-block" data-block-type="text" style="width: 1015px; left: -27px; top: 6px; height: auto;" data-block-id="7ee1c7e7f8d9b4574b2b31bc6cca3b01"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Social Data Analytics and Research (SDAR) </h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 845px; height: 535px; left: 58px; top: 165px; min-width: 4px; min-height: 4px;" data-block-id="207bf8ec21f5390e0797779d67b6a47d"><a class="sl-block-content fragment" style="z-index: 11;" href="https://epps.utdallas.edu/sdar" target="_blank" data-fragment-index="1"><img style="" data-natural-width="2131" data-natural-height="1350" data-lazy-loaded="" data-src="deck-61/f695ba81d91593aae3244621e0dc4403.png"></a></div></section><section class="stack" data-id="0c855050978870748f05413ce4afa1e2"><section data-id="ca0e239e1aaea0ae01daef23d7909644"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 19px; height: auto;" data-block-id="0b9fce9d09a003bfe88e610dd13cfc5d"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>SDAR Roadmap</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 108px; height: auto;" data-block-id="f2ddb4fc6ee48fbbb91c92f41674872d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 0.975;" data-has-line-height="">
+<ol>
+	<li class="fade-up fragment" data-fragment-index="0">
+	<p style="font-size:48px"><span style="font-size:1.0em">Introduction - Data theory</span></p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="1">
+	<p style="font-size:48px"><span style="font-size:1.0em">Data methods</span></p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="2">
+	<p style="font-size:48px"><span style="font-size:1.0em">Statistics</span></p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="3">
+	<p style="font-size:48px"><span style="font-size:1.0em">Programming</span></p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="4">
+	<p style="font-size:48px"><span style="font-size:1.0em">Data Visualization</span></p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="5">
+	<p style="font-size:48px"><span style="font-size:1.0em">Information Management</span></p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="6">
+	<p style="font-size:48px">Data Curation</p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="7">
+	<p style="font-size:48px">Spatial Models and Methods</p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="8">
+	<p style="font-size:48px">Machine Learning</p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="9">
+	<p style="font-size:48px">NLP/Text mining</p>
+	</li>
+</ol>
+</div></div></section><section data-id="8f455d2ee3fc1a9fd579061b3a01c168"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 19px; height: auto;" data-block-id="cb16f5a6165db171a62d77cd3ea9d0f5"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>SDAR Roadmap</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 106px; height: auto;" data-block-id="16de6fad7bd4ade18a756646b39abc40"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 0.975;" data-has-line-height="">
+<ol>
+	<li class="visible">
+	<p style="font-size:48px"><span style="font-size:1.0em">Introduction - Data theory</span></p>
+
+	<ol>
+		<li class="fragment" data-fragment-index="0">
+		<p style="font-size:48px">Fundamentals</p>
+
+		<ol>
+			<li>
+			<p style="font-size:48px">Data concepts</p>
+			</li>
+			<li>
+			<p style="font-size:48px">Data Generation Process (DGP)</p>
+			</li>
+		</ol>
+		</li>
+		<li class="fragment" data-fragment-index="1">
+		<p style="font-size:48px">Algorithm-based vs. Data-based approaches</p>
+		</li>
+		<li class="fragment" data-fragment-index="2">
+		<p style="font-size:48px">Taxonomy</p>
+		</li>
+	</ol>
+	</li>
+</ol>
+</div></div></section><section data-id="2c82c9c0e0043409c29fce45d6a9b549"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 19px; height: auto;" data-block-id="cb632e02de7171ec5019a734cf6d7c7f">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>SDAR Roadmap</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 106px; height: auto;" data-block-id="a7a0496c1f0af5577c2d6d3c87fdf6d0">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 0.975;" data-has-line-height="">
+        <ol start="2">
+            <li class="visible">
+                <p style="font-size:48px">
+                    <span style="text-align:left">Data methods</span>
+                </p>
+                <ol>
+                    <li class="fragment" data-fragment-index="0">
+                        <p style="font-size:48px">
+                            <span style="text-align:left">​Passive data</span>
+                        </p>
+                    </li>
+                    <li class="fragment" data-fragment-index="1">
+                        <p style="font-size:48px">Data at will</p>
+                    </li>
+                    <li class="fragment" data-fragment-index="2">
+                        <p style="font-size:48px">Qualitative data</p>
+                    </li>
+                    <li class="fragment" data-fragment-index="3">
+                        <p style="font-size:48px">Complex data</p>
+                    </li>
+                    <li class="fragment" data-fragment-index="4">
+                        <p style="font-size:48px">Text data</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</div></section><section data-id="2cd1da2cf98913a189357c74fee960fe"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 19px; height: auto;" data-block-id="986a7c23c8b5471d6d39850562bf97bf">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>SDAR Roadmap</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 106px; height: auto;" data-block-id="2bb89b1e26e61ac4a159747208d790bb">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 0.975;" data-has-line-height="">
+        <ol start="3">
+            <li>
+                <p style="font-size:48px">
+                    <span style="text-align:left">Statistics</span>
+                </p>
+                <ol>
+                    <li class="fragment" data-fragment-index="0">
+                        <p style="font-size:48px">Sample and Population</p>
+                    </li>
+                    <li class="fragment" data-fragment-index="1">
+                        <p style="font-size:48px">Inference</p>
+                    </li>
+                    <li class="fragment" data-fragment-index="2">
+                        <p style="font-size:48px">Size and power</p>
+                    </li>
+                    <li class="fragment" data-fragment-index="3">
+                        <p style="font-size:48px">Representation</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</div></section><section data-id="d80c13425e83cac3a32523e49fd876d1"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 19px; height: auto;" data-block-id="795db69a4dbe66b0d4e480462c5193c1">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>SDAR Roadmap</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 106px; height: auto;" data-block-id="982152f4922f7da48c4b8ac3ed6aabf6">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 0.975;" data-has-line-height="">
+        <ol start="4">
+            <li>
+                <p style="font-size:48px">
+                    <span style="text-align:left">Programming</span>
+                </p>
+                <ol>
+                    <li class="fragment" data-fragment-index="0">
+                        <h3>
+                            <span style="font-size:1.2em">R</span>
+                        </h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="1">
+                        <h3>
+                            <span style="font-size:1.2em">Python</span>
+                        </h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="2">
+                        <h3>
+                            <span style="font-size:1.2em">HTML</span>
+                        </h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="3">
+                        <h3>
+                            <span style="font-size:1.2em">Java script</span>
+                        </h3>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</div></section><section data-id="887771c10d06d76cfd581d6b990c55a2"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 19px; height: auto;" data-block-id="867011e6002e2f83a24f73bce6840b41">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>SDAR Roadmap</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 106px; height: auto;" data-block-id="dfd1c26696a80196d9e6b42d90da676d">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 0.975;" data-has-line-height="">
+        <ol start="5">
+            <li class="visible">
+                <p style="font-size:48px">
+                    <span style="text-align:left">Data Visualization</span>
+                </p>
+                <ol>
+                    <li class="fragment" data-fragment-index="0">
+                        <h3>Tableau</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="1">
+                        <h3>ggplot2</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="2">
+                        <h3>Shiny</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="3">
+                        <h3>D3.js</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="4">
+                        <h3>Animation</h3>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</div></section><section data-id="c665845c683b8b58ee3883df095e24ab"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 19px; height: auto;" data-block-id="ff7e77ffe2a219fb5f6cab8778474414">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>SDAR Roadmap</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 106px; height: auto;" data-block-id="1a61dc529f79ea144503995d5dd25a0a">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 0.975;" data-has-line-height="">
+        <ol start="6">
+            <li class="visible">
+                <p style="font-size:48px">Information Management</p>
+                <ol>
+                    <li class="fragment" data-fragment-index="0">
+                        <h3>MapReduce</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="1">
+                        <h3>Hadoop</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="2">
+                        <h3>Cassandra</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="3">
+                        <h3>MongoDB</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="4">
+                        <h3>NoSQL</h3>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</div></section><section data-id="01b1a3471463462c04a30c28a40930ee"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 19px; height: auto;" data-block-id="9591740d8fbdd36fbea074ab46d22531">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>SDAR Roadmap</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 106px; height: auto;" data-block-id="c08512ad522280f4ba06007b66e315ad">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 0.975;" data-has-line-height="">
+        <ol start="7">
+            <li class="visible">
+                <p style="font-size:48px">Data curation</p>
+                <ol>
+                    <li class="fragment" data-fragment-index="0">
+                        <h3>Google OpenRefine</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="1">
+                        <h3>Sampling</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="2">
+                        <h3>Missing value concepts and management</h3>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</div></section><section data-id="7499a35f256bd2759199f9551569f804"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 19px; height: auto;" data-block-id="41079991ce371b96c71b283a420a1c97">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>SDAR Roadmap</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 106px; height: auto;" data-block-id="811e76a3d666d3e84cf5c9b261ef1d05">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 0.975;" data-has-line-height="">
+        <ol start="8">
+            <li class="visible">
+                <p style="font-size:48px">Spatial Models and Methods</p>
+                <ol>
+                    <li class="fragment" data-fragment-index="0">
+                        <h3>GIS</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="1">
+                        <h3>R/Leaflet</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="2">
+                        <h3>Python Map</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="3">
+                        <h3>Remote Sensing</h3>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</div></section><section data-id="5b0ef0164d3bdc84d7fa4dabd755f201"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 19px; height: auto;" data-block-id="dfb8b168517ab270013d894e3ee06f33">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>SDAR Roadmap</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 106px; height: auto;" data-block-id="f446fa3ab32e312f6eeb6e899b00a6c7">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 0.975;" data-has-line-height="">
+        <ol start="9">
+            <li>
+                <p style="font-size:48px">Machine Learning</p>
+                <ol>
+                    <li class="fragment" data-fragment-index="0">
+                        <h3>Supervised</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="1">
+                        <h3>Unsupervised</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="2">
+                        <h3>Regression methods</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="3">
+                        <h3>Neural Networks</h3>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</div></section><section data-id="24971533bee10010170f5a4a5d32ad88"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 19px; height: auto;" data-block-id="dc8a0426bc2f97d57eb1e562790c1b47">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+        <h2>Data Science Roadmap</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 106px; height: auto;" data-block-id="8cd5db508469e6a13cac0a62f656b927">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 0.975;" data-has-line-height="">
+        <ol start="10">
+            <li class="visible">
+                <p style="font-size:48px">NLP/Text Mining</p>
+                <ol>
+                    <li class="fragment" data-fragment-index="0">
+                        <h3>Corpus</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="1">
+                        <h3>Text Analysis</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="2">
+                        <h3>Sentiment Analysis</h3>
+                    </li>
+                    <li class="fragment" data-fragment-index="3">
+                        <h3>Natural Language Processing</h3>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</div></section></section><section class="stack" data-id="4f8706cb7400493fb2ba40f098d35165"><section data-id="5f22603fa1cb0b051a7a544d3b28e675"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 266px; height: auto;" data-block-id="81b3518c131a7a4e5ef230488b33ebf0"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Illustrations</h1>
+</div></div></section><section data-id="8fed369baa7ba186c840abdb621056f3" data-background-iframe="https://trends.google.com.tw/trends/explore?geo=TW&amp;q=國民黨,年金改革,蔡英文,民進黨" data-background-interactive="true"><div class="sl-block" data-block-type="text" style="width: 851px; left: 55px; top: 42px; height: auto;" data-block-id="48002beea6ede08824e9389040fdcec6">
+    <div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;" data-fragment-index="0">
+<h2 style="text-align:center"><a href="https://trends.google.com.tw/trends/explore?geo=TW&amp;q=%E5%9C%8B%E6%B0%91%E9%BB%A8,%E5%B9%B4%E9%87%91%E6%94%B9%E9%9D%A9,%E8%94%A1%E8%8B%B1%E6%96%87,%E6%B0%91%E9%80%B2%E9%BB%A8" target="_blank">Google Trends</a></h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 888px; height: 472px; left: 36px; top: 146px;" data-block-id="cc13960564a2b5bd4418c4918f3c3a35"><div class="sl-block-content fragment" style="z-index: 12;" data-fragment-index="1" href="https://trends.google.com.tw/trends/explore?geo=TW&amp;q=%E5%9C%8B%E6%B0%91%E9%BB%A8,%E5%B9%B4%E9%87%91%E6%94%B9%E9%9D%A9,%E8%94%A1%E8%8B%B1%E6%96%87,%E6%B0%91%E9%80%B2%E9%BB%A8"><img style="" data-natural-width="2410" data-natural-height="1282" data-lazy-loaded="" data-src="deck-61/b1c07ad73d7c0e9822171de5d3fcd9a6.png"></div></div></section><section data-id="8752d1c5531b46b97d246072ed94f058"><div class="sl-block" data-block-type="text" style="height: auto; width: 904px; left: 28px; top: 52px;" data-block-id="91a301482d1918fa69c6f5d9289684c3">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-fragment-index="0">
+<h2>The story of Google Flu Trend</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 865px; left: 47px; top: 158px;" data-block-id="7c12cc13b1eef70e450eb6be1c86d439">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="1">
+<h3 style="text-align:left">By using Big Data of search queries, Google Flu Trend (GFT) predicted the flu-like illness rate in a population.</h3>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 858px; left: 47px; top: 317px;" data-block-id="db910648a7ca2965e0a5293288c38751">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="2">
+<h3 style="text-align:left">However, the journal <em>Nature </em>where GFT published the findings on figured the GFT overestimated as much as twice than the actual data.  Two political scientists helped fix and address the problem.</h3>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 47px; top: 589px;" data-block-id="dbeaced96226d12bb36889e0e57812e3">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="3">
+<h3 style="text-align:left">Lesson we learn:<br>
+Political Science can save the world!</h3>
+</div>
+</div></section><section data-id="103ff0ff180b202d680d2354b1e435eb"><div class="sl-block" data-block-type="text" style="height: auto; width: 904px; left: 28px; top: 52px;" data-block-id="eda051ccbf9c440d87d58c3cd52308b2">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>The story of Google Flu Trend</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 865px; left: 47px; top: 158px;" data-block-id="7ea041a662a3980b066ea425b1d0779a">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<h3 style="text-align: left;">Lazer, Kennedy, King and Vespignani (2014)</h3>
+
+<h3 style="text-align: left;">Traditional “small data” often offer information that is not contained (or containable) in big data, and the very factors that have enabled big data are enabling more traditional data collection (<a href="https://www.ted.com/talks/joel_selanikio_the_surprising_seeds_of_a_big_data_revolution_in_healthcare" target="_blank">watch TED talk by Dr. Joel Selanikio</a>). The Internet has opened the way for improving standard surveys, experiments, and health reporting.  (Lazer et al. 2014 <em>Science</em>)</h3>
+</div>
+</div></section><section data-background-iframe="https://trends.google.com.tw/trends/explore?geo=TW&amp;q=國民黨,年金改革,蔡英文,民進黨" data-id="803aeff7408b60ce99ecd368952a5f68"><div class="sl-block" data-block-type="text" style="width: 851px; left: 55px; top: 42px; height: auto;" data-block-id="dab9fc8de53b06bc3f45f895f8b5ea8e">
+    <div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;" data-fragment-index="0">
+<h2 style="text-align:center">Public Policy and Big Data</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 806px; height: 551px; left: 80px; top: 116px;" data-block-id="635771f50b5ba7716165cf463a8f68b1"><div class="sl-block-content fragment" style="z-index: 12;" data-fragment-index="1"><img style="" data-natural-width="1226" data-natural-height="838" data-lazy-loaded="" data-src="deck-61/2129889a49fb8e38872bcb68394a993b.png"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="245a981794232183be5107306fb34c67" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 3px; top: 646px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="2" dir="ui"><pre><a href="https://www.sciencedirect.com/science/article/pii/S2352154617300396" target="_blank"><span style="font-size:0.5em">Ruggeri, K., Yoon, H., Kácha, O., van der Linden, S. and Muennig, P., 2017. <em>Policy and population behavior in the age of Big Data</em>. Current Opinion in Behavioral Sciences, 18, pp.1-6.</span></a></pre></div></div></section><section data-id="72fb7c07e3556af021c81609be1fe34d"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 42px; height: auto;" data-block-id="6a9aaa5f837b23ed9ba348a93f3bd35f"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Java: D3 Library</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 806px; height: 437px; left: 77px; top: 132px; min-width: 4px; min-height: 4px;" data-block-id="19afa2e3aec0b5fb9f84c7e2bbaf424f"><a class="sl-block-content fragment" style="z-index: 11;" data-fragment-index="1" href="https://www.utdallas.edu/~kxh022100/present/aster/lpm.html" target="_blank"><img style="" data-natural-width="1381" data-natural-height="749" data-lazy-loaded="" data-src="deck-61/8f55f2b5ee7415184a09710299eccdd4.png"></a></div></section><section data-id="3b7aacb48c285e2ad2a8726cde7d29c3"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 33px; height: auto;" data-block-id="ee1c5ae492d9e8e8cc8cba098628c34a"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Sentiment Analysis</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 755px; height: 580px; left: 103px; top: 110px; min-width: 4px; min-height: 4px;" data-block-id="d45c2099e1d5afdf1629907de374c992"><div class="sl-block-content fragment" style="z-index: 11;" data-fragment-index="1"><img style="" data-natural-width="553" data-natural-height="425" data-lazy-loaded="" data-src="deck-61/59228bf7888b8d1896703aab6e5a6dc2.svg"></div></div></section><section data-id="521cd1d1eed53dd5efae52a08b8c51bf"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 42px; height: auto;" data-block-id="6be5669999c919f66d8126c5bd215dee"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Sentiment Analysis</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 950px; height: 730px; left: 10px; top: -21px; min-width: 4px; min-height: 4px;" data-block-id="d9e5c19ea6a673a4416afddb6e723cea"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="553" data-natural-height="425" data-lazy-loaded="" data-src="deck-61/59228bf7888b8d1896703aab6e5a6dc2.svg"></div></div></section><section data-id="219ca9001541b25c68dbfc0a0bbf9237">
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 923px; left: 27px; top: 0px;" data-block-id="dc98cea0134b3c9eef2d04b219827619"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-fragment-index="0">
+<pre style="text-align: left;"><span style="font-size:0.7em">"1","RT @RealJack: *Last year*
+
+Democrats: “TRUMP IS SUCH A TERRIBLE PRESIDENT HE WILL GET US NUKED BY NORTH KOREA!!”
+
+*Trump meets with Kim*
+
+D…"
+"2","Trump Kim summit: US wants 'major N Korea disarmament' by 2020 https://t.co/htY2r4eXXj"
+"3","RT @thehill: JUST IN: Norwegian lawmakers nominate Trump for Nobel Peace Prize after summit with Kim Jong Un https://t.co/Uer56GgE2A https:…"
+"4","RT @JRubinBlogger: Pompeo is acting exactly like Kerry -- indignant, caught up in process. Convinced concessions aren'[t concessions. Pathe…"
+"5","RT @SykesCharlie: On Wednesday morning, Chosun Ilbo, South Korea’s paper of record, published a bleak editorial: “Kim Jong-un Got Everythin…"
+"6","RT @chuckwoolery: Yesterday Shepard Smith, gave a scathing report on Trump/Kim Singapore summit. Following the Lefts lead."
+"7","RT @WhiteHouse: Leaders the world over spoke of the powerful significance of President Trump’s summit with Kim Jong Un this week.
+
+Read mor…"
+"8","RT @PalmerReport: Fuck Donald Trump
+
+Fuck Kim Jong Un
+
+Fuck their fake summit
+
+Fuck Vladimir Putin
+
+Fuck Dennis Rodman
+
+Fuck the media for…"
+"9","Dennis Rodman has been the link between Kim Jong-Un and Donald Trump. Very Scary times we are in @StephMillerShow… https://t.co/UR0JWs0hcp"
+"10","RT @TomSteyer: .@realDonaldTrump repeatedly said, Kim Jong Un ""loves his people."" This is what love looks like to Trump:
+
+Over 100,000 poli…"
+"11","RT @TheUSASingers: I’m gonna lay it on the line.
+
+- Obama isn’t a Muslim
+- Hillary doesn’t eat babies
+- Socialists aren’t Nazis
+- Nazis are…"</span></pre>
+</div></div></section></section><section data-id="44727b4e96f84b47c200d24236d6152b">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 834px; left: 80px; top: 214px;" data-block-id="6bd3011542ffbd509091269b29672a4f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ul>
+	<li class="fragment" data-fragment-index="0">
+	<h2>Data Thinking</h2>
+	</li>
+	<li class="fragment" data-fragment-index="1">
+	<h2>Multi-disciplinary Thinking</h2>
+	</li>
+	<li class="fragment" data-fragment-index="2">
+	<h2>Machine Thinking</h2>
+	</li>
+</ul>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="a456dc9a44fff15a3e144e3e6e2188db" style="height: auto; min-width: 30px; min-height: 30px; width: 849px; left: 56px; top: 41px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<h2>Some thoughts on<br>
+Social Data Science</h2>
+</div></div></section><section data-id="077ad2cf63aee307ab7a289ddc44c5e3"><div class="sl-block" data-block-type="text" style="width: 806px; left: 92px; top: 210px; height: auto;" data-block-id="87b7788092d8f4f862be20879c0f0ef1"><div class="sl-block-content fragment" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h1>Thank you!</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 318px; height: auto;" data-block-id="e709b24bebe2438038a2a3f706b019fc"><div class="sl-block-content fragment" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;" data-fragment-index="1">
+<h3>Questions and Comments</h3>
+</div></div>
+
+</section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":1287948,"slug":"deck-61","title":"Social Data Analytics and Political Research: New Public Opinion and Data tools","description":"Presentation prepared for Soochow University","width":960,"height":700,"visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/781a4b1f0aceefaf47a91d214523ea09/thumb.jpg?1530848810","view_count":0,"user":{"id":757574,"username":"karlho","name":"Karl Ho","description":"Social and Political Data Science (SPDS)","thumbnail_url":"https://www.gravatar.com/avatar/525af04bc32f523bbca30c1337faf94e?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":true,"pro":false,"lite":true,"team_id":null,"settings":{"id":608111,"present_controls":true,"present_upsizing":true,"present_pointer":true,"present_notes":false,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":null,"should_loop":false,"share_notes":null,"slide_number":null,"slide_count":61,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1553893775387,"font_typekit":null,"font_google":null,"time_limit":null,"upsizing_enabled":null,"notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.min.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+				maxScale: 1,
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				dependencies: [
+					{ src: 'lib/reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlighting(); hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'lib/reveal-plugins/zoom/zoom.js', async: true }
+				]
+			});
+		</script>
+
+		
+
+	</body>
+</html>
