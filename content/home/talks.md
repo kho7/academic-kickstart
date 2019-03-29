@@ -68,12 +68,3 @@ subtitle = ""
  css_class = ""
 +++
 
-# "Data Production and Collection Methods"
-
-Date: 2019-03-09 8:30 to 11:00 am
-
-Location: UTD Big Data Management Conference, ECSS Building
-
-[poster](https://utdallas.app.box.com/v/bdmconf)
-
-[notebook](https://datageneration.org/bdm)
