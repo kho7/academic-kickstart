@@ -1,6 +1,6 @@
 ---
-title: "Data Production and Collection Methods"
-date: 2019-03-09 8:30 to 11:00 
+title: "Big Data Collection in Big Data Age"
+date: 2019-03-09 8:30 to 11:00 am
 location: UTD Big Data Management Conference, ECSS Building
 draft: true
 ---
