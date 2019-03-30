@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Big Data Collection in Big Data Age</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-palatino theme-color-white-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-id="e9d23384f55c8f797f8fcb46a0f6102a"><div class="sl-block" data-block-type="text" style="width: 807px; left: 76px; top: 238px; height: auto;" data-block-id="e77fe45c49da9d8240e0296614dd9822"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Big Data Collection in Big Data Age</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 2px; top: 524px;" data-block-id="7bbeb41fe6996800606c42d1faaf12c1">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+        <p>Karl Ho</p>
+        <p>School of Economic, Political and Policy Sciences</p>
+        <p>University of Texas at Dallas</p>
+    </div>
+</div></section><section data-id="05ae9b059ffa88d54a6da6c001471f9e"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="971fdeb8a2d263368740a4013db0190a"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;">
+<h2>Acknowledgements</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 829px; left: 66px; top: 154px; height: auto;" data-block-id="5f800a827ae929036e12515a30ff5948"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="0">
+<ol>
+	<li class="visible" style="">
+	<p style="font-size:48px">Dr. Jeyakesavan Veerasamy</p>
+	</li>
+	<li class="fragment" style="" data-fragment-index="2">
+	<p style="font-size:48px">Expert helpers:</p>
+
+	<ol>
+		<li class="fragment" style="" data-fragment-index="3">
+		<p style="font-size:48px"><a href="https://www.linkedin.com/in/mgpatel/" target="_blank">Mehul Govindbhai Patel</a></p>
+		</li>
+		<li class="fragment" style="" data-fragment-index="5">
+		<p style="font-size:48px"><a href="https://www.linkedin.com/in/kanakroy/" target="_blank">Kanak Kanti Roy</a></p>
+		</li>
+		<li class="fragment" style="" data-fragment-index="7">
+		<p style="font-size:48px">Nick Haoran Weng</p>
+		</li>
+	</ol>
+	</li>
+</ol>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="f1af5b0b779c1acc4715522edc19e340" style="min-width: 4px; min-height: 4px; width: 181px; height: 181px; left: 10px; top: 350px;"><div class="sl-block-content fragment" style="z-index: 13;" data-fragment-index="6"><img data-natural-width="391" data-natural-height="391" style="" data-lazy-loaded="" data-src="bdcbda/f8db66489b9669e5c8fed7191dc4c17c.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="92da6b09a810a7ccbaa57d07afd53a67" style="min-width: 4px; min-height: 4px; width: 183px; height: 183px; left: 800px; top: 247px;"><div class="sl-block-content fragment" style="z-index: 14;" data-fragment-index="4"><img data-natural-width="409" data-natural-height="409" style="" data-lazy-loaded="" data-src="bdcbda/63c8f8c10b8320dc10b7377fe496d7f4.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="6595ef0c12ec08d8a2daff4df63f5cf9" style="min-width: 4px; min-height: 4px; width: 138px; height: 138px; left: 22px; top: 97px;"><div class="sl-block-content fragment" style="z-index: 15;" data-fragment-index="1"><img data-natural-width="138" data-natural-height="138" style="" data-lazy-loaded="" data-src="bdcbda/1f9962c7df835c618c93d08865058ae2.png"></div></div></section><section data-id="043b88e3966002e232bf26c2ff68e5e4">
+<div class="sl-block" data-block-type="text" data-block-id="c96505fabc573f3e5cf94adfa5662aae" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 89px; top: 130px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ol>
+	<li style="" class="fragment" data-fragment-index="0">
+	<h3 style="text-align: left;">Data Theory</h3>
+	</li>
+	<li style="" class="fragment" data-fragment-index="1">
+	<h3 style="text-align: left;">Data Methods</h3>
+
+	<ol>
+		<li style="" class="fragment" data-fragment-index="2">
+		<h3 style="text-align: left;">Data Production (Small data)</h3>
+		</li>
+		<li style="" class="fragment" data-fragment-index="3">
+		<h3 style="text-align: left;">Data Collection (Big data)</h3>
+		</li>
+	</ol>
+	</li>
+	<li style="" class="fragment" data-fragment-index="4">
+	<h3 style="text-align: left;">​Workshop: Big Data Collection</h3>
+
+	<ol>
+		<li style="" class="fragment" data-fragment-index="5">
+		<h3 style="text-align: left;">​API method</h3>
+		</li>
+		<li style="" class="fragment" data-fragment-index="6">
+		<h3 style="text-align: left;">Non-API method</h3>
+		</li>
+	</ol>
+	</li>
+</ol>
+</div></div></section><section data-id="d93870efb87af8eb85743c3e2bba7d06">
+
+<div class="sl-block" data-block-type="shape" style="width: 248px; height: 257px; left: 312px; top: 106px;" data-block-id="1c745069f0ad3b97f5bd53f652061adc"><div class="sl-block-style" style="z-index: 13;"><div class="sl-block-content fragment" data-shape-type="circle" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 13;" data-shape-stroke-color="#ff0000" data-shape-stroke-width="5" data-fragment-index="2"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 248 256"><defs><clippath id="shape-mask-1-1552120717864"><ellipse rx="124" ry="128" cx="124" cy="128"></ellipse></clippath></defs><ellipse rx="124" ry="128" cx="124" cy="128" clip-path="url(#shape-mask-1-1552120717864)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ff0000" stroke-width="10"></ellipse></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 248px; height: 257px; left: 516px; top: 222px;" data-block-id="3691e875890c40693aaa4d73249309aa"><div class="sl-block-style" style="z-index: 12;"><div class="sl-block-content fragment" data-shape-type="circle" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 12;" data-shape-stroke-color="#ff0000" data-shape-stroke-width="5" data-fragment-index="1"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 247 257"><defs><clippath id="shape-mask-2-1552120717866"><ellipse rx="123.5" ry="128.5" cx="123.5" cy="128.5"></ellipse></clippath></defs><ellipse rx="123.5" ry="128.5" cx="123.5" cy="128.5" clip-path="url(#shape-mask-2-1552120717866)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ff0000" stroke-width="10"></ellipse></svg></div></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 805px; height: 668px; left: 77px; top: 16px;" data-block-id="6cbf2343c8aabb87e986bb6b2f3ba219"><div class="sl-block-content fragment" style="z-index: 11;" data-fragment-index="0"><img data-natural-width="1434" data-natural-height="1190" style="" data-lazy-loaded="" data-src="bdcbda/c17bf9e9bd76001325413d4daf6fa5a9.png"></div></div></section><section class="stack" data-id="a736e035545ad3e42441aa4aa31ae6d4"><section data-id="c6539070463ebf1c4ff076e2bd030867"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="023f96148fa640219f1b02591370bcaa"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h2>What is data?</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 829px; left: 66px; top: 154px; height: auto;" data-block-id="0cc42396f946934a02dce2d88afb23ac"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="1">
+<ol>
+	<li class="visible" style="">
+	<p style="font-size:48px">Kinds of Data</p>
+
+	<ol>
+		<li class="fragment" style="" data-fragment-index="2">
+		<p style="font-size:48px">Quantitative vs. Qualitative</p>
+		</li>
+		<li class="fragment" style="" data-fragment-index="3">
+		<p style="font-size:48px">Structured vs. Semi/unstructured</p>
+		</li>
+		<li class="fragment" style="" data-fragment-index="4">
+		<p style="font-size:48px">Measurement</p>
+
+		<ul>
+			<li class="fragment" style="" data-fragment-index="5">
+			<p style="font-size:48px"><span style="font-size:0.9em">Nominal/ordinal/interval/ratio<span style="font-size:0.9em">​</span></span></p>
+			</li>
+		</ul>
+		</li>
+	</ol>
+	</li>
+</ol>
+</div></div></section><section data-id="7116fb54d63b48506b2b63925cbb77da"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="245c0a0f8473c56ee1b0f2698bf68ba6">
+    <div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+        <h2>What is data?</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 829px; left: 66px; top: 154px; height: auto;" data-block-id="171042cdd764b3231cd1b1fb348bf192">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+        <ol start="2">
+            <li class="fragment" style="" data-fragment-index="1">
+                <h3 style="font-size: 48px;">Data generation</h3>
+                <ol>
+                    <li class="fragment" style="" data-fragment-index="2">
+                        <h3 style="font-size: 48px;">
+                            <span style="font-size:43.2px; text-align:left">Made data vs. Found data</span>
+                        </h3>
+                    </li>
+                    <li class="fragment" style="" data-fragment-index="3">
+                        <h3 style="font-size: 48px;">Structured vs. Semi/unstructured</h3>
+                    </li>
+                    <li class="fragment" style="" data-fragment-index="4">
+                        <h3 style="font-size: 48px;">Primary vs. secondary data</h3>
+                    </li>
+                    <li class="fragment" style="" data-fragment-index="5">
+                        <h3 style="font-size: 48px;">Derived data</h3>
+                        <ol>
+                            <li class="fragment" style="" data-fragment-index="6">
+                                <p style="font-size:48px">metadata, paradata</p>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</div></section></section><section class="stack" data-id="efe18bf8f3e0f212704afb9de4f99c5d"><section data-id="1627b47de16c326b2e033ae6be62416f"><div class="sl-block" data-block-type="image" style="width: 806px; height: 557px; left: 77px; top: 73px; min-width: 4px; min-height: 4px;" data-block-id="be2901e43db4a0964283fdcc2cade500"><div class="sl-block-content fragment" style="z-index: 10;" data-fragment-index="0"><img style="" data-natural-width="1276" data-natural-height="882" data-lazy-loaded="" data-src="bdcbda/b8e2b4d896aa3987142b0c0c3c4ed1e4.jpg"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 120px; top: 630px;" data-block-id="da4cd8a1ad0de068ddccdec190625131"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="1">
+<p><span style="color:rgb(34, 34, 34); font-family:arial,sans-serif; font-size:13px; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; text-align:left">Ackoff, R.L., 1989. From data to wisdom. </span><em style="color:rgb(34, 34, 34); font-family:arial,sans-serif; font-size:13px; text-align:left">Journal of applied systems analysis</em><span style="color:rgb(34, 34, 34); font-family:arial,sans-serif; font-size:13px; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; text-align:left">, </span><em style="color:rgb(34, 34, 34); font-family:arial,sans-serif; font-size:13px; text-align:left">16</em><span style="color:rgb(34, 34, 34); font-family:arial,sans-serif; font-size:13px; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; text-align:left">(1), pp.3-9.</span></p>
+</div></div>
+<div class="sl-block" data-block-type="shape" style="width: 248px; height: 257px; left: 465px; top: 134px;" data-block-id="0206a1091bb6f72ab352c73490d8b5e7"><div class="sl-block-style" style="z-index: 12;"><div class="sl-block-content fragment" data-shape-type="circle" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 12;" data-shape-stroke-color="#ff0000" data-shape-stroke-width="5" data-fragment-index="2"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 247 257"><defs><clippath id="shape-mask-1-1535055828233"><ellipse rx="123.5" ry="128.5" cx="123.5" cy="128.5"></ellipse></clippath></defs><ellipse rx="123.5" ry="128.5" cx="123.5" cy="128.5" clip-path="url(#shape-mask-1-1535055828233)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ff0000" stroke-width="10"></ellipse></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 248px; height: 257px; left: 196px; top: 350px;" data-block-id="3ef2931bf4da7111e216890bd55677dc"><div class="sl-block-style" style="z-index: 13;"><div class="sl-block-content fragment" data-shape-type="circle" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 13;" data-shape-stroke-color="#ff0000" data-shape-stroke-width="5" data-fragment-index="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 247 257"><defs><clippath id="shape-mask-2-1535055828237"><ellipse rx="123.5" ry="128.5" cx="123.5" cy="128.5"></ellipse></clippath></defs><ellipse rx="123.5" ry="128.5" cx="123.5" cy="128.5" clip-path="url(#shape-mask-2-1535055828237)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ff0000" stroke-width="10"></ellipse></svg></div></div></div></section><section data-id="9f320e63066515b377f6a963f80ddf27">
+
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 837px; left: 18px; top: 140px;" data-block-id="e3f19c6c822aa6a2eacbf9def291ca84"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" dir="ui"><ul>
+<li data-fragment-index="0" class="fragment"><h3 style="text-align:left">1700s Agricultural Revolution </h3></li>
+<li data-fragment-index="1" class="fragment"><h3>1780 Industrial Revolution</h3></li>
+<li data-fragment-index="2" class="fragment"><h3>1940 Information Revolution</h3></li>
+<li data-fragment-index="3" class="fragment"><h3>1950s Digital Revolution</h3></li>
+<li data-fragment-index="4" class="fragment"><h3>Knowledge Revolution</h3></li>
+<li data-fragment-index="5" class="fragment"><h3>Data Revolution</h3></li>
+</ul></div></div>
+</section></section><section class="stack" data-id="8a94176a84717b50674a6b72c9ce61e1"><section data-id="2215c10dbee5a370a172897b8a040f18">
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 340px; top: 395px;" data-block-id="a05f9cae9e7f599d82c6044807cbdfc3"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-fragment-index="1">
+<h3 style="text-align:right"><span style="text-align:right">- Sir Francis Bacon</span></h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 837px; left: 62px; top: 133px;" data-block-id="b7546d6800fff89f1d4d8f9f89b053de"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<h2 style="text-align: left;"><span style="color:rgb(34, 34, 34); text-align:left">"ipsa scientia potestas est" </span></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 837px; left: 62px; top: 268px;" data-block-id="ea78a06acf164bb460ef4793fefd7193"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="0">
+<h2 style="text-align: left;">"Knowledge itself is Power."</h2>
+</div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 118px; top: 470px;" data-block-id="56c253e549f4047be9142109d8badbd8"><div class="sl-block-content notranslate fragment" style="z-index: 13; font-size: 56%;" data-fragment-index="2">
+<div class="math-input">Power=f(Knowledge_{Size},Knowledge_{Veracity},Knowledge_{Speed})</div>
+
+</div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 117px; top: 547px;" data-block-id="1954bb89b2bf90d521b6fa95f970cca6"><div class="sl-block-content notranslate fragment" style="z-index: 15; font-size: 56%; color: rgb(255, 0, 0);" data-fragment-index="3">
+<div class="math-input">Power=f(Data_{Size},Data_{Speed},Data_{Veracity})</div>
+
+</div></div></section><section data-id="a75c5dd94bacd88fa6926cf0a8f6eaf1"><div class="sl-block" data-block-type="text" style="width: 895px; left: 34px; top: 106px; height: auto;" data-block-id="0f5a60693a4599d371479836a7aebb99"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<ul>
+	<li style="" class="fragment" data-fragment-index="0">
+	<h2>Prediction-explanation gap</h2>
+	</li>
+	<li style="" class="fragment" data-fragment-index="1">
+	<h2>Induction-deduction gap</h2>
+	</li>
+	<li style="" class="fragment" data-fragment-index="2">
+	<h2>Bigness-representativeness gap</h2>
+	</li>
+	<li style="" class="fragment" data-fragment-index="3">
+	<h2>Data access gap</h2>
+	</li>
+</ul>
+</div></div></section></section><section class="stack" data-id="728e2baa5bed56bf6fa0147cc435e9da"><section data-id="12d94f2949da4c28afd4cdc808800748"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 42px; height: auto;" data-block-id="9b4d06c3d96e6f6d858e60fb15c40356"><div class="sl-block-content fragment" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h3><strong>Three challenges facing Data Science</strong></h3>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 74px; top: 129px; height: auto;" data-block-id="b07b3d83a0323e6e58976ff7c4ecd9d5"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11;" data-fragment-index="1">
+<ol>
+	<li>
+	<h3 style="text-align:left"><span style="color:#000000"><span style="text-align:start">Generalization from samples to population</span></span></h3>
+	</li>
+	<li class="fragment" data-fragment-index="2">
+	<h3><span style="color:#000000">Generalization from the control group to the treatment group</span></h3>
+	</li>
+	<li class="fragment" data-fragment-index="3">
+	<h3><span style="color:#000000">Generalization from <span style="text-align:start">observed measurements to the underlying constructs of interest.</span></span></h3>
+	</li>
+</ol>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 320px; top: 560px;" data-block-id="ce774c587b90a3f1ebd8e81040ff7afa"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="4">
+<h3><span style="font-size:0.7em">- Andrew Gelman</span></h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 339px; left: 622px; top: 88px;" data-block-id="bf1b51902d92d96defb490c7ca5a9b2f"><div class="sl-block-style" style="z-index: 13; transform: rotate(354deg);"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="5">
+<h3><span style="color:#FF0000">Data methods</span></h3>
+</div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 339px; left: 642px; top: 220px;" data-block-id="7ffae9eb9821db68b205e702044b404b"><div class="sl-block-style" style="z-index: 14; transform: rotate(354deg);"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" data-fragment-index="6">
+<h3><span style="color:#FF0000">Experimental design</span></h3>
+</div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 339px; left: 666px; top: 384px;" data-block-id="1642e8e6257370e2d4f724faad0bf0e0"><div class="sl-block-style" style="z-index: 15; transform: rotate(354deg);"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" data-fragment-index="7">
+<h3><span style="color:#FF0000">Measurements</span></h3>
+</div></div></div></section><section data-id="ce74a7c5a9f181185dadc7eb86414008">
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 708px; left: 212px; top: 560px;" data-block-id="64a668ca4934b1587376f7ed609974bf"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-fragment-index="1">
+<h3 style="text-align:right">
+<span style="text-align:right">- </span>Farida Vis 2013 </h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 837px; left: 73px; top: 250px;" data-block-id="b62638c35d63af1b72a22494a61e6a28"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0" dir="ui">
+<h3 style="text-align:left">"...what you see is framed by what you are able to see or indeed want to see..." </h3>
+</div></div></section></section><section data-id="05f924957cdad5fad745e5e18a8ab2b9">
+
+<div class="sl-block" data-block-type="shape" style="width: 118px; height: 133px; left: 166px; top: 300px;" data-block-id="f0c3615f79e3027fd5a3f3fab76e9d46"><div class="sl-block-style" style="z-index: 13;"><div class="sl-block-content fragment" data-shape-type="circle" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 13;" data-shape-stroke-color="#ff0000" data-shape-stroke-width="5" data-fragment-index="2"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 117 133"><defs><clippath id="shape-mask-3-1552120965228"><ellipse rx="58.5" ry="66.5" cx="58.5" cy="66.5"></ellipse></clippath></defs><ellipse rx="58.5" ry="66.5" cx="58.5" cy="66.5" clip-path="url(#shape-mask-3-1552120965228)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ff0000" stroke-width="10"></ellipse></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 62px; height: 47px; left: 609px; top: 292px;" data-block-id="201199c9d020f8bceae1729340bebf59"><div class="sl-block-style" style="z-index: 14;"><div class="sl-block-content fragment" data-shape-type="circle" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 14;" data-shape-stroke-color="#ff0000" data-shape-stroke-width="5" data-fragment-index="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 62 47"><defs><clippath id="shape-mask-4-1552120965232"><ellipse rx="31" ry="23.5" cx="31" cy="23.5"></ellipse></clippath></defs><ellipse rx="31" ry="23.5" cx="31" cy="23.5" clip-path="url(#shape-mask-4-1552120965232)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ff0000" stroke-width="10"></ellipse></svg></div></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 388px; height: 518px; left: 114px; top: 64px;" data-block-id="3134155c197091a898fea1c7f8a0253c"><div class="sl-block-content fragment" style="z-index: 11;" data-fragment-index="0"><img style="" data-natural-width="1012" data-natural-height="1350" data-lazy-loaded="" data-src="bdcbda/e492df37019b74ea0d9a002785b63e0d.jpg"></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 388px; height: 518px; left: 502px; top: 65px;" data-block-id="05fdc1f454ba46dbccaa8ad83201497c"><div class="sl-block-content fragment" style="z-index: 12;" data-fragment-index="1"><img data-natural-width="1012" data-natural-height="1350" style="" data-lazy-loaded="" data-src="bdcbda/078054cd7c7b7f3419342b73c7f1d916.jpg"></div></div></section><section class="stack" data-id="3ef5396938da125acbabdf6f154c0a17"><section data-id="7c5b93fb3870f328b0ca7a72845364a5"><div class="sl-block" data-block-type="text" style="height: auto; width: 904px; left: 28px; top: 52px;" data-block-id="0bd09df7af5a7ef451a06d47adbb50a1">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-fragment-index="0">
+<h2>The story of Google Flu Trend</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 865px; left: 47px; top: 158px;" data-block-id="0ac0a63f527bb187ff13f801f05af5dc">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="1">
+<h3 style="text-align:left">By using Big Data of search queries, Google Flu Trend (GFT) predicted the flu-like illness rate in a population.</h3>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 858px; left: 47px; top: 317px;" data-block-id="b275684967e29980f43e5c5eb47c84ba">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="2">
+<h3 style="text-align:left">The findings were published in the top journal Nature in 2008.  However, shortly GFT failed and missed<span style="text-align:start"> at the peak of the 2013 flu season by 140 percent.  </span>
+</h3>
+</div>
+</div>
+</section><section data-id="51e32c72bec5532c1c696f02b65cac1a"><div class="sl-block" data-block-type="text" style="height: auto; width: 904px; left: 28px; top: 52px;" data-block-id="f298d3e2a5a7df3f035144b2584f86a4">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>The story of Google Flu Trend</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 865px; left: 47px; top: 157px;" data-block-id="83e9415c203b6c75e888355eca9417b6">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<h3 style="text-align:left">Lazer, Kennedy, King and Vespignani (2014)</h3>
+
+<h3 style="text-align:left">Traditional “small data” often offer information that is not contained (or containable) in big data, and "by combining GFT and lagged [traditional] CDC data, as well as dynamically recalibrating GFT... can substantially improve on the performance of GFT or the CDC alone. " (Lazer et al. 2014 <em>Science</em>)</h3>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 865px; left: 47px; top: 157px;" data-block-id="9828c8918be896e24a3c76452709f42b">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="1">
+<h3 style="text-align:left">Lazer, Kennedy, King and Vespignani (2014)</h3>
+
+<h3 style="text-align:left">Traditional “small data” often offer information that is not contained (or containable) in big data, and "<span style="color:#FF0000">by combining GFT and lagged [traditional] CDC data, as well as dynamically recalibrating GFT... can substantially improve on the performance of GFT or the CDC alone.</span> " (Lazer et al. 2014 <em>Science</em>)</h3>
+</div>
+</div></section></section><section data-id="1fd908b14a58d7921e0942286724f85a"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 152px; height: auto;" data-block-id="f7235e841a446f2633593fa5ff7154f4"><div class="sl-block-content fragment" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h3 style="text-align: left;">Google should have highest power in data access .  </h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 78px; top: 268px; height: auto;" data-block-id="f1e31bc6d36f973e9593ab8305c7c590"><div class="sl-block-content fragment" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;" data-fragment-index="1">
+<h3 style="text-align:left">Why would it fail?</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 420px; height: auto;" data-block-id="e720445f98ce5744ac8239016a3373e2"><div class="sl-block-content fragment" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 12;" data-fragment-index="3">
+<h3 style="text-align:left">Why would it not fail yet?</h3>
+</div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 78px; top: 350px;" data-block-id="2dd19d8dfbfc6123b612eddd6db50451"><div class="sl-block-content notranslate fragment" style="z-index: 14; font-size: 56%; color: rgb(255, 0, 0);" data-fragment-index="2">
+<div class="math-input">Power=f(Data_{Size},Data_{Veracity},Data_{Speed})</div>
+
+</div></div>
+<div class="sl-block" data-block-type="math" style="width: auto; height: auto; left: 80px; top: 502px;" data-block-id="857838856e64abf568956d349e391cf4"><div class="sl-block-content notranslate fragment" style="z-index: 15; font-size: 56%; color: rgb(255, 0, 0);" data-fragment-index="4">
+<div class="math-input">Power=f(Data_{Veracity},Data_{Speed},Data_{Size})</div>
+
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 580px; height: auto;" data-block-id="88dacc34611c882c666484f530a05c20"><div class="sl-block-content fragment" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 16;" data-fragment-index="5">
+<h3 style="text-align:left">Size still matters, but not first.</h3>
+</div></div></section><section data-id="b0b2cc5474c286cc4eea59db9bfbfb2b"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 152px; height: auto;" data-block-id="1024cd76bfac86c69438b678e34b6be1"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>A Theory of Data: Understanding Data Generation <br>
+</h1>
+</div></div></section><section data-id="df92a5186967edcd3984bd85c518202d"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 42px; height: auto;" data-block-id="832d2fd0d5c0065e81b1e4e3f43b665c"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Data Generation</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 806px; height: 596px; left: 80px; top: 116px; min-width: 4px; min-height: 4px;" data-block-id="37fe31e54ba05aac6de96970756fe981"><div class="sl-block-content fragment" style="z-index: 11;" data-fragment-index="1"><img style="" data-natural-width="1826" data-natural-height="1350" data-lazy-loaded="" data-src="bdcbda/ad57434416fab504c476352d0fbcec1f.png"></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 206px; top: 508px;" data-block-id="2911b96648c7ef30b77644088fa83e81"><div class="sl-block-style" style="z-index: 12; opacity: 0.85;"><div class="sl-block-content fragment" data-line-x1="0" data-line-y1="200" data-line-x2="493" data-line-y2="200" data-line-color="#ff0000" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 12;" data-line-style="dotted" data-line-width="14px" data-fragment-index="2"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="493" height="1" viewbox="0 200 493 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="200" x2="483" y2="200"></line><line stroke="#ff0000" stroke-width="14" stroke-dasharray="0 27.388888888888893" stroke-linecap="round" x1="0" y1="200" x2="483" y2="200"></line><path style="fill: rgba(0,0,0,0);" stroke="#ff0000" stroke-width="14" transform="translate(483,200) rotate(90)" d="M 31.5 31.5 L 0 0 L -31.5 31.5"></path></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 419px; height: 593px; left: 481px; top: 102px;" data-block-id="225a700c8a8fcfd9882daf6845394786"><div class="sl-block-style" style="z-index: 13; transform: rotate(360deg);"><div class="sl-block-content fragment" data-shape-type="circle" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 13;" data-shape-stroke-color="#ff0000" data-shape-stroke-width="4" data-fragment-index="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 419 593"><defs><clippath id="shape-mask-3-1535056060541"><ellipse rx="209.5" ry="296.5" cx="209.5" cy="296.5"></ellipse></clippath></defs><ellipse rx="209.5" ry="296.5" cx="209.5" cy="296.5" clip-path="url(#shape-mask-3-1535056060541)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ff0000" stroke-width="8"></ellipse></svg></div></div></div></section><section data-id="39f3c633b977f2f1630b3b37ba86db79">
+
+<div class="sl-block" data-block-type="shape" style="width: 341px; height: 206px; left: 449px; top: 424px;" data-block-id="32f6fda87e1c40f2d7ea0c3ead680f76"><div class="sl-block-style" style="z-index: 13;"><div class="sl-block-content fragment fade-up" data-shape-type="circle" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 13;" data-shape-stroke-color="#ffff00" data-shape-stroke-width="5" data-fragment-index="0"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 341 206"><defs><clippath id="shape-mask-5-1552121162715"><ellipse rx="170.5" ry="103" cx="170.5" cy="103"></ellipse></clippath></defs><ellipse rx="170.5" ry="103" cx="170.5" cy="103" clip-path="url(#shape-mask-5-1552121162715)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ffff00" stroke-width="10"></ellipse></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 62px; height: 47px; left: 609px; top: 292px;" data-block-id="7849d8ad34f37a5e2d07562c5385c324"><div class="sl-block-style" style="z-index: 11;"><div class="sl-block-content" data-shape-type="circle" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 11;" data-shape-stroke-color="#ff0000" data-shape-stroke-width="5"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 62 47"><defs><clippath id="shape-mask-6-1552121162717"><ellipse rx="31" ry="23.5" cx="31" cy="23.5"></ellipse></clippath></defs><ellipse rx="31" ry="23.5" cx="31" cy="23.5" clip-path="url(#shape-mask-6-1552121162717)" class="shape-element" fill="rgba(0, 0, 0, 0)" stroke="#ff0000" stroke-width="10"></ellipse></svg></div></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 608px; height: 756px; left: 264px; top: -38px;" data-block-id="9464f742c10f44f56dcc65a3b0215fe7"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="750" data-natural-height="933" style="" data-lazy-loaded="" data-src="bdcbda/a1f21e722b6282ec2edf26bbf8d625df.jpg"></div></div></section><section data-id="293aee8599932b9531cf6e88ce9da22c"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="df529980e5355d1b2d59ed5b30ee8e2b">
+    <div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Data Methods</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 151px; height: auto;" data-block-id="344d37d5a34afa6f18d5740cd26c74a7">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ol>
+	<li class="fade-up fragment" data-fragment-index="1" style="">
+	<h3>Survey</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="2" style="">
+	<h3>Experiments</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="3" style="">
+	<h3>Qualitative Data</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="4" style="">
+	<h3>Text Data</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="5" style="">
+	<h3>Web Data</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="6" style="">
+	<h3>Machine Data</h3>
+	</li>
+	<li class="fragment" data-fragment-index="7" style="">
+	<h3>Complex Data</h3>
+
+	<ol>
+		<li class="fragment" data-fragment-index="7" style="">
+		<h3>Network Data</h3>
+		</li>
+		<li class="fragment" data-fragment-index="8" style="">
+		<h3>Multiple-source linked Data</h3>
+		</li>
+	</ol>
+	</li>
+</ol>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 293px; left: 694px; top: 174px;" data-block-id="6f57509130397fdc3654db649aa5423f"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="10">
+<h3>Made</h3>
+
+<h3>Data</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 338px; left: 560px; top: 107px;" data-block-id="ca13f88ef67d8515e885b1c2214e86b5"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="9">
+<h1><span style="font-size:3.0em"><span style="color:#FF0000">}</span></span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 338px; left: 560px; top: 311px;" data-block-id="59feaa289939aba14a7f4e8b26bb3eb8"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" data-fragment-index="11">
+<h1><span style="font-size:3.0em"><span style="color:#FF0000">}</span></span></h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 293px; left: 694px; top: 402px;" data-block-id="36296ab8ba9c47fe8cad9cae5856bfe6"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" data-fragment-index="12">
+<h3>Found</h3>
+
+<h3>Data</h3>
+</div></div></section><section data-id="0e46216ae273030ab0e699b15abfa3c3"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="4ac5e2fda641e1ab8a603d52c70d746a">
+    <div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Data Methods</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 95px; top: 210px; height: auto;" data-block-id="8fc2dbce9c7df1bd4d9752d6032c5319">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ol>
+	<li class="fade-up fragment" data-fragment-index="1" style="">
+	<h3>Small data or Made data emphasize design</h3>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="2" style="">
+	<h3>Big data or Found data focus on algorithm</h3>
+	</li>
+</ol>
+</div>
+</div>
+
+
+
+</section><section data-id="ffacc644086c54d89029ed5a75b425ca"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="8dd5ecd7e97f5c5049bbfec422b378cc">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Data Methods</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 312px; height: auto;" data-block-id="b743671dcaf4f69e9ee2f41ed64df126">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<h3 class="">How the two can learn from each other?</h3>
+</div>
+</div>
+
+
+
+</section><section class="stack" data-id="ea3581f3b63444b01ea629db22d44cd8"><section data-id="14187839a2e0d1fe6daed74b325186bc"><div class="sl-block" data-block-type="text" style="height: auto; width: 851px; left: 55px; top: 49px;" data-block-id="8401397aaac19511ba597de74dd420c4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>Statistical Modeling:<br>
+The Two Cultures </h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 825px; left: 68px; top: 210px;" data-block-id="009eeda61fd0758a01deb1409b2f4378"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui" data-fragment-index="0">
+<h3 style="text-align:left">Leo Breiman 2001: <em>Statistical Science</em> </h3>
+</div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 319px; left: 80px; top: 323px;" data-block-id="2c30013291327f714b679ca340f5425d"><div class="sl-block-content fragment" style="z-index: 12;" data-table-cols="1" data-table-rows="1" data-fragment-index="1"><table><tbody><tr><th>One assumes that the data are generated by a given stochastic data model.</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 317px; left: 563px; top: 285px;" data-block-id="c6c345c8cc30a72119e064eccb897676"><div class="sl-block-content fragment" style="z-index: 13;" data-table-cols="1" data-table-rows="1" data-fragment-index="2"><table><tbody><tr><th>The other uses algorithmic models and treats the data mechanism as unknown.</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 319px; left: 81px; top: 521px;" data-block-id="18facde4196a436b4009a6d2833589f6"><div class="sl-block-content fragment" style="z-index: 14; text-align: center;" data-table-cols="1" data-table-rows="1" data-fragment-index="3"><table><tbody><tr><th>Data Model</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 319px; left: 563px; top: 521px;" data-block-id="050864905345b29b004ba00bba0ca083"><div class="sl-block-content fragment" style="z-index: 15; text-align: center;" data-table-cols="1" data-table-rows="1" data-fragment-index="4"><table><tbody><tr><th>Algorithmic Model</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 319px; left: 80px; top: 596px;" data-block-id="5ef797c4a42e397b0c6401ad22487676"><div class="sl-block-content fragment" style="z-index: 16; text-align: center;" data-table-cols="1" data-table-rows="1" data-fragment-index="5"><table><tbody><tr><th>Small data</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 319px; left: 562px; top: 596px;" data-block-id="c6a6cf243419aedd67ac90655e5c0d63"><div class="sl-block-content fragment" style="z-index: 17; text-align: center;" data-table-cols="1" data-table-rows="1" data-fragment-index="6"><table><tbody><tr><th>Complex, big data</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 241px; top: 487px;" data-block-id="a3840fe7e66ccc3ad4a3caf4b838f135"><div class="sl-block-content fragment" data-line-x1="0" data-line-y1="193" data-line-x2="0" data-line-y2="159" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 18;" data-fragment-index="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="34" viewbox="0 159 1 34"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="193" x2="0" y2="159"></line><line stroke="#000000" stroke-width="2" x1="0" y1="193" x2="0" y2="159"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 721px; top: 487px;" data-block-id="6023a82aeb9a0aa8ffdec4df4dbb2da4"><div class="sl-block-content fragment" data-line-x1="0" data-line-y1="193" data-line-x2="0" data-line-y2="159" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 19;" data-fragment-index="4"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="34" viewbox="0 159 1 34"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="193" x2="0" y2="159"></line><line stroke="#000000" stroke-width="2" x1="0" y1="193" x2="0" y2="159"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 241px; top: 572px;" data-block-id="3d2df0c417da97db5758ed7546754fe6"><div class="sl-block-content fragment" data-line-x1="1" data-line-y1="183" data-line-x2="1" data-line-y2="159" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 20;" data-fragment-index="5"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="24" viewbox="1 159 1 24"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="1" y1="183" x2="1" y2="159"></line><line stroke="#000000" stroke-width="2" x1="1" y1="183" x2="1" y2="159"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 720px; top: 572px;" data-block-id="9a7e47f875ed5a129ac982c637f219a5"><div class="sl-block-content fragment" data-line-x1="1" data-line-y1="183" data-line-x2="1" data-line-y2="159" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 21;" data-fragment-index="6"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="24" viewbox="1 159 1 24"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="1" y1="183" x2="1" y2="159"></line><line stroke="#000000" stroke-width="2" x1="1" y1="183" x2="1" y2="159"></line></svg></div></div></section><section data-id="d9e17718153352d92d3a8937d90388ab"><div class="sl-block" data-block-type="text" style="height: auto; width: 851px; left: 55px; top: 49px;" data-block-id="e105f8a5fed9f7a71a3dd12f8d441a31"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>Theory:<br>
+Data Generation Process</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 81px; top: 235px;" data-block-id="9e32957b3626badc2d4080d13fa8f681"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<p style="text-align:left"><span style="font-size:1.2em">Data are generated in many fashions.   Picture this: independent variable x goes in one side of the box-- we call it nature for now-- and dependent variable y come out from the other side.</span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 545px; height: 136px; left: 209px; top: 494px; min-width: 4px; min-height: 4px;" data-block-id="7c102f0fc0ce849dab41c7394e5c8078"><div class="sl-block-content fragment" style="z-index: 12;" data-fragment-index="1"><img data-natural-width="401" data-natural-height="100" style="" data-lazy-loaded="" data-src="bdcbda/9df5077db6861261577fe4518d112196.png"></div></div></section><section data-id="549c058baaf97599ea501ba79130f727"><div class="sl-block" data-block-type="text" style="height: auto; width: 851px; left: 55px; top: 18px;" data-block-id="1c1fe7baf3583a84085533900d3ea0c8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>Theory:<br>
+Data Generation Process</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 185px;" data-block-id="ec226b1f07181026a89f1956c4401db1"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<h3>Data Model</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 799px; left: 81px; top: 253px;" data-block-id="ee0f161faaaa97eb5337feec385a703b"><div class="sl-block-style" style="z-index: 12;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="1">
+<p style="text-align: left;">The analysis in this culture starts with assuming a stochastic data model for the inside of the black box. For example, a common data model is that data are generated by independent draws from response variables.</p>
+</div></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 799px; left: 81px; top: 467px;" data-block-id="edae7dda9c79685cb16b8f2dd08e1df7"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="2">
+<p style="text-align:left"><span style="font-size:1.0em">Response Variable= f(Predictor variables, random noise, parameters)</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 560px;" data-block-id="1e8173ff2a305f9a2f7fd00f383426c7"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;" data-fragment-index="3">
+<p style="text-align: left;">Reading the response variable is a function of a series of predictor/independent variables, plus random noise (normally distributed errors) and other parameters.  </p>
+</div></div></section><section data-id="94e2acf7197bfe7e1df6247518c44595"><div class="sl-block" data-block-type="text" style="height: auto; width: 851px; left: 55px; top: 18px;" data-block-id="d125a5156f41fcf832ff606a6cbceb36"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>Theory:<br>
+Data Generation Process</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 185px;" data-block-id="f11e6b7e7393314f2dfe88b5d2f5fc28"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<h3>Data Model</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 799px; left: 81px; top: 432px;" data-block-id="8f4d7ed0f604ab8e781fb12ae6235212"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="2">
+<p style="text-align:left"><span style="font-size:1.0em">The values of the parameters are estimated from the data and the model then used for information and/or prediction. </span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 451px; height: 128px; left: 255px; top: 286px; min-width: 4px; min-height: 4px;" data-block-id="7845cd70505aaa290326e258ea084552"><div class="sl-block-content fragment" style="z-index: 13;" data-fragment-index="1"><img data-natural-width="451" data-natural-height="128" style="" data-lazy-loaded="" data-src="bdcbda/d9f00ca34a56ff4abd53e1842d99a0cd.png"></div></div></section><section data-id="c4863cbd6280fdf6b06aee2716548c5a"><div class="sl-block" data-block-type="text" style="height: auto; width: 851px; left: 55px; top: 18px;" data-block-id="0713d4ce459177a5a27e16fdeae5420b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>Theory:<br>
+Data Generation Process</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 185px;" data-block-id="4b54bab1fc7759caba0e42bffe9484d3"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<h3> Algorithmic Modeling</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 799px; left: 81px; top: 256px;" data-block-id="d00315fc3f1469f29bfeeb5106f35faf"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="1">
+<p style="text-align:left">The analysis in this approach considers the inside of the box complex and unknown. Their approach is to find a function f(x)-an algorithm that operates on x to predict the responses y.<span style="font-size:1.0em"> </span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 81px; top: 430px;" data-block-id="d87683873021b2badd99b2563e55d4e0"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="2">
+<p style="text-align: left;">The goal is to find algorithm that accurately predicts y.</p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 488px; height: 196px; left: 237px; top: 490px; min-width: 4px; min-height: 4px;" data-block-id="6d76c1de076e131ef4b5d36c25cab008"><div class="sl-block-content fragment" style="z-index: 14;" data-fragment-index="3"><img data-natural-width="488" data-natural-height="196" style="" data-lazy-loaded="" data-src="bdcbda/6457798f09c6eb579ce707dbc86fcedd.png"></div></div></section><section data-id="681042616d1a7ade3c24ee402d7b5138"><div class="sl-block" data-block-type="text" style="height: auto; width: 851px; left: 55px; top: 18px;" data-block-id="557c37bee3714c674ae781fa2fdcf966"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>Theory:<br>
+Data Generation Process</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 185px;" data-block-id="8ccb0fb41c952a6f9239cc6d0914963b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h3> Algorithmic Modeling</h3>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 344px; left: 536px; top: 599px;" data-block-id="39f230d7da66e40283a989f76fa39155"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="1">
+<p style="text-align:left">Unsupervised Learning</p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 401px; left: 88px; top: 599px;" data-block-id="5c7763769b5c545fbe091a87eb63c69a"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;" data-fragment-index="1">
+<p style="text-align:left">Supervised Learning         vs. </p>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 800px; height: 339px; left: 80px; top: 235px; min-width: 4px; min-height: 4px;" data-block-id="2f1d4457508b9d042148a70a408c5996"><div class="sl-block-content fragment" style="z-index: 14;" data-fragment-index="0"><img data-natural-width="649" data-natural-height="275" style="" data-lazy-loaded="" data-src="bdcbda/7187beaf10783e075b63ebe9a3bbe8cb.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 88px; top: 638px;" data-block-id="b463f3124142286459fea6b4b0d52287"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15;" data-fragment-index="2">
+<p style="text-align: left;"><span style="font-size:0.5em">Source: https://www.mathworks.com</span></p>
+</div></div></section></section><section data-id="470458bbfaf08f55141389c5f7c98bad"><div class="sl-block" data-block-type="text" style="height: auto; width: 851px; left: 55px; top: 49px;" data-block-id="16548d319d1ede2ee4b965eee3ca5bde"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<h2>Statistical Modeling:<br>
+The Two Cultures </h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 825px; left: 68px; top: 210px;" data-block-id="a58e76d5d665df100a68f49112c0bdbb"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui" data-fragment-index="0">
+<h3 style="text-align:left">Leo Breiman 2001: <em>Statistical Science</em> </h3>
+</div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 319px; left: 81px; top: 280px;" data-block-id="3353be1dba4f0e04305e9693bae46317"><div class="sl-block-content fragment" style="z-index: 12;" data-table-cols="1" data-table-rows="1" data-fragment-index="1"><table><tbody><tr><th>One assumes that the data are generated by a given stochastic data model.<br>
+ </th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 317px; left: 564px; top: 280px;" data-block-id="be11d171bfbbf69561a1a795f8615b83"><div class="sl-block-content fragment" style="z-index: 13;" data-table-cols="1" data-table-rows="1" data-fragment-index="2"><table><tbody><tr><th>The other uses algorithmic models and treats the data mechanism as unknown.</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 319px; left: 81px; top: 521px;" data-block-id="284741b1ccf53c8c7dd2f1333318d1ce"><div class="sl-block-content fragment" style="z-index: 14; text-align: center;" data-table-cols="1" data-table-rows="1" data-fragment-index="3"><table><tbody><tr><th>Data Model</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 319px; left: 563px; top: 521px;" data-block-id="9b24e4f2984e8be689cc5439f81c8c3a"><div class="sl-block-content fragment" style="z-index: 15; text-align: center;" data-table-cols="1" data-table-rows="1" data-fragment-index="4"><table><tbody><tr><th>Algorithmic Model</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 319px; left: 80px; top: 596px;" data-block-id="40fdb7a663ad5850750e331dcb09a6b6"><div class="sl-block-content fragment" style="z-index: 16; text-align: center;" data-table-cols="1" data-table-rows="1" data-fragment-index="5"><table><tbody><tr><th>Small data</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="table" style="height: auto; width: 319px; left: 562px; top: 596px;" data-block-id="8a6e3e02d0e97a55371398d7822b5a92"><div class="sl-block-content fragment" style="z-index: 17; text-align: center;" data-table-cols="1" data-table-rows="1" data-fragment-index="6"><table><tbody><tr><th>Complex, big data</th></tr></tbody></table></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 241px; top: 482px;" data-block-id="1dec909d1534a53ea15a5bfd55925f67"><div class="sl-block-content fragment" data-line-x1="0" data-line-y1="193" data-line-x2="0" data-line-y2="154" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 18;" data-fragment-index="3"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="39" viewbox="0 154 1 39"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="193" x2="0" y2="154"></line><line stroke="#000000" stroke-width="2" x1="0" y1="193" x2="0" y2="154"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 721px; top: 482px;" data-block-id="7f4a2e13284a1adb3190f822d2254ade"><div class="sl-block-content fragment" data-line-x1="0" data-line-y1="193" data-line-x2="0" data-line-y2="154" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 19;" data-fragment-index="4"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="39" viewbox="0 154 1 39"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="193" x2="0" y2="154"></line><line stroke="#000000" stroke-width="2" x1="0" y1="193" x2="0" y2="154"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 241px; top: 572px;" data-block-id="5e5dd575e0392c15f5c86b70a24a912b"><div class="sl-block-content fragment" data-line-x1="1" data-line-y1="183" data-line-x2="1" data-line-y2="159" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 20;" data-fragment-index="5"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="24" viewbox="1 159 1 24"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="1" y1="183" x2="1" y2="159"></line><line stroke="#000000" stroke-width="2" x1="1" y1="183" x2="1" y2="159"></line></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 720px; top: 572px;" data-block-id="1ed9d24e805e168e405e07002fa5352d"><div class="sl-block-content fragment" data-line-x1="1" data-line-y1="183" data-line-x2="1" data-line-y2="159" data-line-color="#000000" data-line-start-type="none" data-line-end-type="none" style="z-index: 21;" data-fragment-index="6"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="24" viewbox="1 159 1 24"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="1" y1="183" x2="1" y2="159"></line><line stroke="#000000" stroke-width="2" x1="1" y1="183" x2="1" y2="159"></line></svg></div></div></section><section class="stack" data-id="42aa10bef7046031a1eb5c09f6ec1760"><section data-id="cb9ed5ab069264f7378fa1c4373c3942"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 19px; height: auto;" data-block-id="92e5d47fa02010ccbf0877efe85a5fa2"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Data Science Roadmap</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 108px; height: auto;" data-block-id="ce7409205ef8e29f5e04aeaa098edf6b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 0.975;" data-has-line-height="">
+<ol>
+	<li class="fade-up fragment" data-fragment-index="0">
+	<p style="font-size:48px"><span style="font-size:1.0em">Introduction - Data theory</span></p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="1">
+	<p style="font-size:48px"><span style="font-size:1.0em">Data methods</span></p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="2">
+	<p style="font-size:48px"><span style="font-size:1.0em">Statistics</span></p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="3">
+	<p style="font-size:48px"><span style="font-size:1.0em">Programming</span></p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="4">
+	<p style="font-size:48px"><span style="font-size:1.0em">Data Visualization</span></p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="5">
+	<p style="font-size:48px"><span style="font-size:1.0em">Information Management</span></p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="6">
+	<p style="font-size:48px">Data Curation</p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="7">
+	<p style="font-size:48px">Spatial Models and Methods</p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="8">
+	<p style="font-size:48px">Machine Learning</p>
+	</li>
+	<li class="fade-up fragment" data-fragment-index="9">
+	<p style="font-size:48px">NLP/Text mining</p>
+	</li>
+</ol>
+</div></div></section><section data-id="fa04a90ab4dd87ca0ec21a39155fb2f8"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 19px; height: auto;" data-block-id="67816a22f5a5742540a8aa407029c8d5"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Data Science Roadmap</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 106px; height: auto;" data-block-id="a39e16479c91f3ca478fd11fece69fc0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 0.975;" data-has-line-height="">
+<ol>
+	<li>
+	<p style="font-size:48px"><span style="font-size:1.0em">Introduction - Data theory</span></p>
+
+	<ol>
+		<li>
+		<p style="font-size:48px">Fundamentals</p>
+
+		<ol>
+			<li>
+			<p style="font-size:48px">Data concepts</p>
+			</li>
+			<li>
+			<p style="font-size:48px">Data Generation Process (DGP)</p>
+			</li>
+		</ol>
+		</li>
+		<li>
+		<p style="font-size:48px">Algorithm-based vs. Data-based approaches</p>
+		</li>
+		<li>
+		<p style="font-size:48px">Taxonomy</p>
+		</li>
+	</ol>
+	</li>
+</ol>
+</div></div></section><section data-id="4e53c2ba8b92c508cb93a759c6b24422"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 19px; height: auto;" data-block-id="ffa9249081db8f42eb9ad3a96250041b">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+        <h2>Data Science Roadmap</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 106px; height: auto;" data-block-id="69b9e92421fe0ec45afd71efa4b17f17">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; line-height: 0.975;" data-has-line-height="">
+        <ol start="2">
+            <li class="visible">
+                <p style="font-size:48px">
+                    <span style="text-align:left">Data methods</span>
+                </p>
+                <ol>
+                    <li class="fragment" data-fragment-index="0">
+                        <p style="font-size:48px">
+                            <span style="text-align:left">​Passive data</span>
+                        </p>
+                    </li>
+                    <li class="fragment" data-fragment-index="1">
+                        <p style="font-size:48px">Data at will</p>
+                    </li>
+                    <li class="fragment" data-fragment-index="2">
+                        <p style="font-size:48px">Qualitative data</p>
+                    </li>
+                    <li class="fragment" data-fragment-index="3">
+                        <p style="font-size:48px">Complex data</p>
+                    </li>
+                    <li class="fragment" data-fragment-index="4">
+                        <p style="font-size:48px">Text data</p>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</div></section><section data-id="fad3de58abe1f301ba81d31ae09c416b"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="e3ccb8fc400ad003dd049f0e67b1588c"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h2><span style="text-align:left">Data generation process</span></h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 166px; height: auto;" data-block-id="c7a67fe959d7c97be2849676549a6adf"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui" data-fragment-index="1">
+<ol>
+	<li style="text-align:left"><span style="font-size:42px">​How data are generated</span></li>
+	<li style="text-align:left"><span style="font-size:42px">Distribution</span></li>
+	<li style="text-align:left"><span style="font-size:42px">Missing values</span></li>
+	<li style="text-align:left"><span style="font-size:42px">Sampling and Population</span></li>
+</ol>
+
+<p style="text-align:left"> </p>
+</div></div></section><section data-id="6ffce2396cf53d7fc7e6ec087ec57762"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="2e920a1c46a26522526a5668582b6d9e">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2><span style="text-align:left">Statistical understanding</span></h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 166px; height: auto;" data-block-id="4d8882e9f79c9cc53dc7bd5cc10b459e">
+    <div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui" data-fragment-index="0">
+<ol>
+	<li class="fragment" data-fragment-index="1" style="font-size:42px; text-align:left">Size does (not) matter</li>
+	<li class="fragment" data-fragment-index="2" style="font-size:42px; text-align:left">Representativeness does</li>
+	<li class="fragment" data-fragment-index="3" style="font-size:42px; text-align:left">Forecast/prediction minded</li>
+	<li class="fragment" data-fragment-index="4" style="font-size:42px; text-align:left">Explanation</li>
+</ol>
+</div>
+</div></section></section><section data-id="d793c661d30c383b369f74234502bb45"><div class="sl-block" data-block-type="text" style="width: 1042px; left: -41px; top: 43px; height: auto;" data-block-id="c56de430879b3edacee9695142013c7d"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Darkest hour: Churchill and typist</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 821px; height: 548px; left: 77px; top: 140px; min-width: 4px; min-height: 4px;" data-block-id="1a4519a53f39ba14718925067e1bed24"><a class="sl-block-content fragment" style="z-index: 11;" href="https://www.livemint.com/Consumer/o4OPuD1Ky1dxatoATuf3qO/Film-Review-Darkest-Hour.html?utm_source=scroll&amp;utm_medium=referral&amp;utm_campaign=scroll" target="_blank" data-fragment-index="1"><img style="" data-natural-width="621" data-natural-height="414" data-lazy-loaded="" data-src="bdcbda/a30db114f4eca2ccb3fc2f8e41a10c00.jpg"></a></div></section><section data-id="9df51f49a2def096eac245a9aa714111"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="3ac28e80e2977470c60d2b24bcb1fa70"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Web data</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 79px; top: 166px; height: auto;" data-block-id="f38aaf67960480eaf6aa12d0d373db0d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" dir="ui">
+<h3 style="text-align:left">How do we take advantage of the web data?</h3>
+
+<ol>
+	<li class="fragment" data-fragment-index="0">
+	<h3>Purpose of web data</h3>
+	</li>
+	<li class="fragment" data-fragment-index="1">
+	<h3>Generation process of web data</h3>
+	</li>
+	<li class="fragment" data-fragment-index="2">
+	<h3>What is data of data?</h3>
+	</li>
+	<li class="fragment" data-fragment-index="3">
+	<h3>Why data scientists need to collect web data?</h3>
+	</li>
+</ol>
+</div></div>
+</section><section data-id="da54e7f1812182d505639fc2d23f9bd5"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="023cff7ad9fa9b5ee9fc7a788211af89"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Web data: Technical side</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 166px; height: auto;" data-block-id="aa8be531afa8d10d30ce8c649ec0358d"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0">
+<h3 class="fade-up" style="text-align: left;"><span style="font-size:42px">Web scraping </span></h3>
+
+<h3 class="fade-up" style="text-align: left;">
+<span style="font-size:42px">- </span>obtaining information directly from web pages</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 392px; height: auto;" data-block-id="20bcead4efbf369f85748e449777f26b"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;" data-fragment-index="1">
+<h3 style="text-align:left">APIs (Application program interface)<br>
+- web services that allow an interaction with, and retrieval of, structured data.</h3>
+</div></div></section><section data-id="406d69e8edd53518db069c04eaa40c71"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 42px; height: auto;" data-block-id="46f67fa07b138891e80db2d84c2adf9c"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;">
+<h2>Web data technologies</h2>
+</div></div>
+<div class="sl-block" data-block-type="image" style="width: 806px; height: 430px; left: 80px; top: 200px; min-width: 4px; min-height: 4px;" data-block-id="fc67f5ea90f39d2ecdebf2f728112b19"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="884" data-natural-height="472" style="" data-lazy-loaded="" data-src="bdcbda/f0276fc36a1803f7738460047c5aa3d8.png"></div></div></section><section data-id="260e3a972d90c242c9e206554854a899"><div class="sl-block" data-block-type="text" style="width: 892px; left: 37px; top: 70px; height: auto;" data-block-id="27c06ffb850d29c2bca85ae6951e7bb5"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h2>Web data: API's (data source)</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 166px; height: auto;" data-block-id="f12df0d560f42fb55af3722f1596caf4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<ol>
+	<li class="fragment" style="" data-fragment-index="1">
+	<h3 class="fade-up" style="font-size:42px; text-align:left">Social Media                              </h3>
+
+	<ol>
+		<li style="" class="fragment" data-fragment-index="2">
+		<h3>Facebook</h3>
+		</li>
+		<li style="" class="fragment" data-fragment-index="3">
+		<h3>Twitter</h3>
+		</li>
+		<li style="" class="fragment" data-fragment-index="4">
+		<h3>Instagram</h3>
+		</li>
+		<li style="" class="fragment" data-fragment-index="5">
+		<h3>Youtube</h3>
+		</li>
+	</ol>
+	</li>
+	<li class="fragment" style="" data-fragment-index="6">
+	<h3>News websites</h3>
+	</li>
+	<li class="fragment" style="" data-fragment-index="7">
+	<h3>Government websites</h3>
+	</li>
+	<li class="fragment" style="" data-fragment-index="8">
+	<h3>NGOs</h3>
+	</li>
+</ol>
+</div></div>
+</section><section data-id="2d2fb3a216775fba4b2f0dd2bb2c2187">
+
+
+<div class="sl-block" data-block-type="video" style="min-width: 30px; min-height: 30px; width: 731px; height: 731px; left: 139px; top: 0px;" data-block-id="e0d085b671350f7dedcd1a082a1399cd"><div class="sl-block-content" style="z-index: 14;" data-media-id="5869378" data-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/757574/ai_PAFTZ/overdose_thumb_00001.jpg"><video playsinline="" controls="controls" poster="https://s3.amazonaws.com/media-p.slid.es/videos/757574/ai_PAFTZ/overdose_thumb_00001.jpg" data-autoplay="" data-paused-by-reveal="" data-lazy-loaded="" data-src="bdcbda/b0f2f35d64878c5f0321d2cdd7734d25.mp4"></video></div></div></section><section class="stack" data-id="d09ae82a67f22d4e73d86018236679e9"><section data-id="b0f6302a6667fedd942ababc20be272c"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 23px; height: auto;" data-block-id="5e2851e288f9440eff1d5aa80e67504c">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;" dir="ui">
+<h2>Illustration: Public Sentiments on Trade War</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 678px; height: 568px; left: 150px; top: 158px;" data-block-id="46691cc04e76034eb8efbd8ffca15696"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1103" data-natural-height="924" style="" data-lazy-loaded="" data-src="bdcbda/2580fc440f9d631c665e8693cfaba971.png"></div></div></section><section data-id="2c2dadf0c0d1859bf3432ba3bfb12759"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 23px; height: auto;" data-block-id="45d4cf9f61242e388c44d6e08775312c">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;" dir="ui">
+<h2>Illustration: Public Sentiments on Trade War</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 659px; height: 558px; left: 160px; top: 161px;" data-block-id="2d2d96b4043edb444e4175a1000b3531"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1106" data-natural-height="936" data-lazy-loaded="" data-src="bdcbda/9012e2f441dc2bd8986f937c9f3521f2.png"></div></div></section><section data-id="0db70fbc32f8eb79d40b23e4d941acfa"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 25px; height: auto;" data-block-id="95ffebee2722c5c45b2ef1521a68f58c">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;" dir="ui">
+<h2>Illustration: Public Sentiments on Mexico wall</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 658px; height: 551px; left: 160px; top: 163px;" data-block-id="b56d70eeecc5ccf4f5e128cd695224fe"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="976" data-natural-height="818" style="" data-lazy-loaded="" data-src="bdcbda/e9989b757844dd1966c33f45a2070cfb.png"></div></div></section><section data-id="e5dddcc31bd7783e12fb379440aee9aa"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 25px; height: auto;" data-block-id="384d8ff994a14820c0847d5cf1639c8a">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;" dir="ui">
+<h2>Illustration: Public Sentiments on Mexico wall</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 665px; height: 554px; left: 160px; top: 161px;" data-block-id="a3dc6c77039ee9a37be1594effecf476"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="990" data-natural-height="825" data-lazy-loaded="" data-src="bdcbda/19840383c2f84f78d40f0936a5602e29.png"></div></div></section></section><section class="stack" data-id="3ebccfc48b849071ae754c2fd0467789"><section data-id="4ecfbd47014d6a9e364d6e1b374c39cf"><div class="sl-block" data-block-type="text" style="width: 806px; left: 75px; top: 30px; height: auto;" data-block-id="7e53c1fe8f43b60cb0728855e14f3553">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;" dir="ui">
+<h2>Illustration: Donald Trump's Tweet Pattern</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 966px; height: 514px; left: 0px; top: 186px;" data-block-id="76a8feca76306da7a720c1827307a862"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1545" data-natural-height="822" style="" data-lazy-loaded="" data-src="bdcbda/494bf7e09763ca4386312df2e40001c2.png"></div></div></section><section data-id="0e58a61a3307af25f303901b7d0e3690"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 27px; height: auto;" data-block-id="1939c176370a5f2aac336a939021665c">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;" dir="ui">
+<h2>Illustration: Donald Trump's Tweet Pattern (per week)</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 626px; height: 484px; left: 167px; top: 214px;" data-block-id="a68448e24d22c5288508a4b62a7f8734"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1747" data-natural-height="1350" data-lazy-loaded="" data-src="bdcbda/bc53c977eda884c78239778565286b86.png"></div></div></section><section data-id="66824f08f842ea76c7a6df01cf853f57"><div class="sl-block" data-block-type="text" style="width: 841px; left: 60px; top: 19px; height: auto;" data-block-id="d5cca4c35546dfcc4717f5f46f618232">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;" dir="ui">
+<h2>Illustration: Donald Trump's Diction use</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 814px; height: 545px; left: 80px; top: 166px;" data-block-id="93a56ebe79761ffa2564061dcd53f614"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1024" data-natural-height="686" style="" data-lazy-loaded="" data-src="bdcbda/df9f516ebe2a53eba9cdcddad2a763d5.png"></div></div></section><section data-id="97b5019cbdc8f9522ac7f4b51c164094"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 26px; height: auto;" data-block-id="fda7d764dbb4e7df8a88946fe3d5d3dd">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;" dir="ui">
+<h2>Illustration: Donald Trump's Twitter Popularity</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 763px; height: 520px; left: 102px; top: 173px;" data-block-id="8983dab12c684ed43f7c3f0f1689e7e6"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1980" data-natural-height="1350" style="" data-lazy-loaded="" data-src="bdcbda/bc564d40e9c47c6b078fbe1fc9916652.png"></div></div></section><section data-id="8c55074868a811a26be10e0333094435"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 26px; height: auto;" data-block-id="45122e9526bde5b0f32c0a292e569683">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;" dir="ui">
+<h2>Illustration: Donald Trump's Twitter Popularity</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 862px; height: 527px; left: 52px; top: 174px;" data-block-id="f4aa47ad07fde346dd11f6f139c623f7"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="2209" data-natural-height="1350" style="" data-lazy-loaded="" data-src="bdcbda/55d32fdf8c32e9b894a9e6a38f388bec.png"></div></div></section><section data-id="9b2ab875cced5f6c2a81a3a0879e1f68"><div class="sl-block" data-block-type="text" style="width: 841px; left: 60px; top: 19px; height: auto;" data-block-id="104df4bc278edcba33bec6d1b86b5324">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11;" dir="ui">
+<h2>Illustration: Donald Trump's Direct Impact on Public Opinion </h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 699px; height: 540px; left: 175px; top: 174px;" data-block-id="c733f520f1f5ce9f200320a91a95a160"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1747" data-natural-height="1350" data-lazy-loaded="" data-src="bdcbda/41981f8fe9ed96f19f484e2119972e15.png"></div></div></section></section><section data-id="e783a127bcb4c5b66bd0bf3bc900c631">
+<div class="sl-block" data-block-type="text" data-block-id="96b72c571401453f34882e5922a8108f" style="height: auto; min-width: 30px; min-height: 30px; width: 922px; left: 38px; top: 70px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<h2>Workshop:<br>
+API and non-API methods</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="e85dfd343083eb5611af04286351585c" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 331px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p><a href="http://datageneration.org/BDM/" target="_blank">http://datageneration.org/BDM/</a></p>
+</div></div></section><section data-id="d411749e58758eba5115b235ec9eec9b">
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 747px; height: 458px; left: 89px; top: 94px;" data-block-id="2d6d357e694919d22d83ae30d016e9f2"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="804" data-natural-height="493" data-lazy-loaded="" data-src="bdcbda/6614da74c7cbdc27859005dd76fda6c9.png"></div></div></section><section data-id="f308ab37f5788b7a26df870b96b5b968"><div class="sl-block" data-block-type="text" style="width: 806px; left: 92px; top: 210px; height: auto;" data-block-id="abc0afd847eeffa28fd8ae0a70df21e0"><div class="sl-block-content fragment" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;" data-fragment-index="0">
+<h1>Thank you!</h1>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 318px; height: auto;" data-block-id="ac89c93524f57b52e9ab073c4f076e6c"><div class="sl-block-content fragment" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 12;" data-fragment-index="1">
+<h3>Questions and Comments<br>
+are welcome!</h3>
+</div></div>
+
+<div class="sl-block" data-block-type="image" data-block-id="208ed09c88c377939ad6c345225cdc44" style="min-width: 4px; min-height: 4px; width: 458px; height: 621px; left: 252px; top: 40px;"><div class="sl-block-content fragment" style="z-index: 13;" data-fragment-index="2"><img data-natural-width="258" data-natural-height="350" style="" data-lazy-loaded="" data-src="bdcbda/5caa353317ff24d3df76031b9f3a236d.png"></div></div></section><section data-id="ec17d5241447fdb0f86983dd3c7482c9"><div class="sl-block" data-block-type="text" style="width: 845px; left: 61px; top: 115px; height: auto;" data-block-id="f16a35bdd673618d82ceb867ab824e31"><div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10;" data-fragment-index="0">
+<h3>Statistics can help data scientists in three ways:</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 94px; top: 196px; height: auto;" data-block-id="49dd01d5b3bdf3c9b0636994851b825a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p class="visible" style="text-align:left"> </p>
+
+<ol>
+	<li class="fragment" style="text-align: left;" data-fragment-index="1">Design and data collection</li>
+	<li class="fragment" style="text-align: left;" data-fragment-index="2">Data analysis</li>
+	<li class="fragment" style="text-align: left;" data-fragment-index="3">Decision making</li>
+</ol>
+
+<p class="visible"> </p>
+</div></div></section><section data-id="48bca572016612808af61e2ef95a35fb">
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 708px; left: 212px; top: 560px;" data-block-id="a0701071762b425fc4871a9ae3354c5e"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;" data-fragment-index="1">
+<h3 style="text-align:right">
+<span style="text-align:right">- </span>Daniel Gilbert, psychology researcher </h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 837px; left: 62px; top: 133px;" data-block-id="1da92039d99ff49290400da5de85cf06"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;" data-fragment-index="0" dir="ui">
+<h3 style="text-align:left">Publication is not canonization. Journals are not gospels. They are the vehicles we use to tell each other what we saw (hence “Letters” &amp; “proceedings”). The bar for communicating to each other should not be high. We can decide for ourselves what to make of each other’s speech.</h3>
+</div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":1446712,"slug":"bdcbda","title":"Big Data Collection in Big Data Age","description":"","width":960,"height":700,"visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/147eb222bbd09ca21a2ec730f274f6fd/thumb.jpg?1552083621","view_count":0,"user":{"id":757574,"username":"karlho","name":"Karl Ho","description":"Social and Political Data Science (SPDS)","thumbnail_url":"https://www.gravatar.com/avatar/525af04bc32f523bbca30c1337faf94e?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":true,"pro":false,"lite":true,"team_id":null,"settings":{"id":608111,"present_controls":true,"present_upsizing":true,"present_pointer":true,"present_notes":false,"default_deck_tag_id":null}},"background_transition":"fade","transition":"fade","theme_id":null,"theme_font":"palatino","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":true,"slide_count":64,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1552486186911,"font_typekit":null,"font_google":null,"time_limit":null,"upsizing_enabled":null,"notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.min.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+				maxScale: 1,
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+
+				transition: "fade",
+				backgroundTransition: "fade",
+
+				dependencies: [
+					{ src: 'lib/reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlighting(); hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'lib/reveal-plugins/zoom/zoom.js', async: true }
+				]
+			});
+		</script>
+
+		
+
+	</body>
+</html>
