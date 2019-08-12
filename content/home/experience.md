@@ -18,12 +18,29 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Associate Professor of Instruction"
+  company = "School of Economic, Political and Policy Sciences, University of Texas at Dallas"
+  company_url = "https://epps.utdallas.edu"
+  location = "Texas"
+  date_start = "2019-08-01"
+  date_end = ""
+  description = """
+  Courses offered:
+  
+  * Knowledge Mining
+  * Data Methods
+  * Data Visualization
+  * Public Policy and Political Economy
+  * Politics of China and East Asia
+  * Policy in China
+  """
+[[experience]]
   title = "Clinical Associate Professor"
   company = "School of Economic, Political and Policy Sciences, University of Texas at Dallas"
   company_url = "https://epps.utdallas.edu"
   location = "Texas"
   date_start = "2013-01-01"
-  date_end = ""
+  date_end = "2019-08-01"
   description = """
   Courses offered:
   
