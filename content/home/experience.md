@@ -30,7 +30,7 @@ date_format = "Jan 2006"
   * Knowledge Mining
   * Data Methods
   * Data Visualization
-  * Public Policy and Political Economy
+  * Political Economy of East Asia
   * Politics of China and East Asia
   * Policy in China
   """
