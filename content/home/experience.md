@@ -57,7 +57,7 @@ date_format = "Jan 2006"
   company_url = "https://eppsac.utdallas.edu"
   location = "Texas"
   date_start = "2005-01-01"
-  date_end = ""
+  date_end = "2019-08-01"
   description = """"""
 
 +++
