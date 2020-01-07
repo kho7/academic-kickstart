@@ -27,12 +27,14 @@ date_format = "Jan 2006"
   description = """
   Courses offered:
   
+  * Information Management
+  * Data Management in Social Sciences
   * Knowledge Mining
   * Data Methods
   * Data Visualization
   * Political Economy of East Asia
-  * Politics of China and East Asia
-  * Policy in China
+  * Politics and Policy in China and East Asia
+
   """
 [[experience]]
   title = "Clinical Associate Professor"
