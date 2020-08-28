@@ -1,7 +1,7 @@
 ---
 title: "Data Science in Practice"
-time_start: 2020-07-27
-time_end: 2020-07-30
+date: 2020-07-27
+time: 10:00
 event: UT Dallas Transfer Research Initiative workshop
 location: Webex online conference
 draft: false
