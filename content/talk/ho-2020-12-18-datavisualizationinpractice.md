@@ -6,5 +6,5 @@ location: National Chung Hsing University, Taichung, Taiwan
 draft: false
 ---
 
-[Slides](https://slides.com/karlho/datascienceinprace/fullscreen)
+[Slides](https://slides.com/karlho/datascienceinpractice/fullscreen)
 
