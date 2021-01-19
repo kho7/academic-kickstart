@@ -1,9 +1,6 @@
 ---
 title: "To request a recommendation letter"
-date: 2018-06-14T18:00:00
-location: National Central University, Taoyuan, Taiwan ROC
-event: Invited Talk, Department of Business Administration, National Central University
-draft: false
+date: 2021-01-19T14:14:00
 ---
 
 This is the advice from Dr. Gary King of Harvard Univesity regarding a recommendation letter request:
