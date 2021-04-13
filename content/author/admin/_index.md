@@ -84,3 +84,5 @@ interests = [
 +++
 
 I am a political scientist working at the intersection of data science and social science. My research interests span both domains of data analytics and political studies, with a regional focus on East Asia. The unifying theme of my research is to use data science methods to explain and prescribe social and political problems.  Areas of research topics include democratization, political economy, public policy and human rights aiming at building public goods and improving policies, governance and representation. 
+
+I am the founding faculty member of the UTD Social Data Analytics and Research Master's program and host of the [Data Analytics Colloquium](http://dacolloquium.com) (joint project with the [National Chung Hsing University](https://www.nchu.edu.tw/en-index).
