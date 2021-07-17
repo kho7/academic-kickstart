@@ -1,6 +1,6 @@
 ---
 title: "To request a recommendation letter"
-date: 2021-01-19T14:14:00
+date: 2021-07-17T11:00:00
 ---
 
 This is the advice from Dr. Gary King of Harvard Univesity regarding a recommendation letter request:
@@ -18,6 +18,7 @@ As much lead time as you can provide would be appreciated.</i>
 If you would like me to write a recommendation letter for you, in line with Dr. King's advice, I suggest you send me via email (kyho@utallas.edu) the following:
 
 - Updated CV
+- If you have taken my course(s), title of your project and final grade.
 - Two to three paragraphs of highlights of your experience and/or academic achievements
 - Full address and addressee of up to three recipients of the letter.
 
