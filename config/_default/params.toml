@@ -52,6 +52,7 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "karl@karlho.com"
 phone = "972-883-2017"
+room = Cecil Green Hall [GR3.203](https://map.concept3d.com/?id=1772#!m/550820)
 address = "800 West Campbell Road GR31, Richardson, TX 75022"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
