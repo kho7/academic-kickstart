@@ -15,7 +15,7 @@ I'll send all letters directly to the organization to which you're applying if y
 
 As much lead time as you can provide would be appreciated.</i>
 
-If you would like me to write a recommendation letter for you, in line with Dr. King's advice, I suggest you send me via email (kyho@utallas.edu) the following:
+If you would like me to write a recommendation letter for you, in line with Dr. King's advice, I suggest you send me via email (kyho@utdallas.edu) the following:
 
 - Updated CV
 - If you have taken my course(s), title of your project and final grade.
