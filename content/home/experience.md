@@ -27,13 +27,17 @@ date_format = "Jan 2006"
   description = """
   Courses offered:
   
+  * Survey Research
   * Information Management
-  * Data Management in Social Sciences
+  * Structural Equation and Multilevel Models
   * Knowledge Mining
   * Data Methods
   * Data Visualization
+  * Advanced Data Programming
   * Political Economy of East Asia
-  * Politics and Policy in China and East Asia
+  * Politics and Policy in China
+  
+  
 
   """
 [[experience]]
