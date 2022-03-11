@@ -16,17 +16,18 @@ role = "Political Scientist/Data Scientist"
 organizations = [ { name = "University of Texas at Dallas", url = "https://epps.utdallas.edu" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include data methods, data visualization, Taiwan elections, politics and policy in China and East Asia."
+bio = "My research interests include survey research, data methods, data visualization, Taiwan elections, politics and policy in China and East Asia."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "karlho@gmail.com"
 
 # List (academic) interests or hobbies
 interests = [
- "Data Methods",
+    "Survey Research",
+    "Data Methods",
     "Elections and Democratization",
     "Data Visualization",
-    "Social Network Time Series"
+    "Machine Learning"
 ]
 
 # Organizational groups that you belong to (for People widget)
