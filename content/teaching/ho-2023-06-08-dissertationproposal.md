@@ -50,7 +50,7 @@ In general, four steps: planning, research, writing and defense.
     -   Use all tools and techniques
     -   Read multiple times:
         -   Style manual (e.g. how to cite, how to build reference list, how to use numbers, sentences)
-        -   [Elements of Style](www.jlakes.org/ch/web/The-elements-of-style.pdf) by William Strunk Jr. and E. B. White (also available [here](www.gutenberg.org/ebooks/37134))
+        -   [Elements of Style](https://www.jlakes.org/ch/web/The-elements-of-style.pdf) by William Strunk Jr. and E. B. White (also available [here](https://www.gutenberg.org/ebooks/37134))
         -   Do everything you can, e.g. attend workshop, start a project to build writing skills
         -   Personal suggestions (particularly for international students):
             -   Avoid long sentences (KISS)
@@ -128,4 +128,6 @@ Sample Structure II (UTD Three paper format)
 
 References:
 
-[Preparation of Dissertation and Thesis](https://graduate.utdallas.edu/current_students/dissertation_and_thesis/), UTD Office of Graduate Education Terrell, Steven R. *Writing a proposal for your dissertation: Guidelines and examples*. Guilford Publications, 2022. [Writing the Social Sciences Dissertation Proposal](https://gwc.gsrc.ucla.edu/workshop-videos/soc-sci-proposal), UCLA Graduate Writing Center
+[Preparation of Dissertation and Thesis](https://graduate.utdallas.edu/current_students/dissertation_and_thesis/)UTD Office of Graduate Education 
+Terrell, Steven R. *Writing a proposal for your dissertation: Guidelines and examples*. Guilford Publications, 2022. 
+[Writing the Social Sciences Dissertation Proposal](https://gwc.gsrc.ucla.edu/workshop-videos/soc-sci-proposal), UCLA Graduate Writing Center
