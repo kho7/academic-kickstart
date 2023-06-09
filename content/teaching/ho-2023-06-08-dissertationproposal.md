@@ -86,10 +86,10 @@ In general, four steps: planning, research, writing and defense.
 # VI. Tools
 
 -   [Zotero](https://www.zotero.org)
--   [Mendeley](www.mendeley.com)
--   [Litmap](www.litmaps.com)
--   [Publish or Perish](harzing.com/resources/publish-or-perish)
--   [Google Scholar](scholar.google.com/)
+-   [Mendeley](https://www.mendeley.com)
+-   [Litmap](https://www.litmaps.com)
+-   [Publish or Perish](https://harzing.com/resources/publish-or-perish)
+-   [Google Scholar](https://scholar.google.com/)
 -   [Semantic Scholar](https://www.semanticscholar.org/)
 
 Sample Structure I (full, multi-chapter, adapted from UCLA):
@@ -128,5 +128,4 @@ Sample Structure II (UTD Three paper format)
 
 References:
 
-[Preparation of Dissertation and Thesis](https://graduate.utdallas.edu/current_students/dissertation_and_thesis/)
-UTD Office of Graduate Education Terrell, Steven R. *Writing a proposal for your dissertation: Guidelines and examples*. Guilford Publications, 2022. [Writing the Social Sciences Dissertation Proposal](https://gwc.gsrc.ucla.edu/workshop-videos/soc-sci-proposal), UCLA Graduate Writing Center
+[Preparation of Dissertation and Thesis](https://graduate.utdallas.edu/current_students/dissertation_and_thesis/), UTD Office of Graduate Education Terrell, Steven R. *Writing a proposal for your dissertation: Guidelines and examples*. Guilford Publications, 2022. [Writing the Social Sciences Dissertation Proposal](https://gwc.gsrc.ucla.edu/workshop-videos/soc-sci-proposal), UCLA Graduate Writing Center
