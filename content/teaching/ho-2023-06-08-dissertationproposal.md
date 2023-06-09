@@ -2,8 +2,7 @@
 title: "How to write dissertation proposal"
 date: 2023-06-08T14:00:00
 ---
-
-Dissertation proposal is the first step of the formal dissertation process. Starting well is the good indicator of success not just in finishing an academic document but more importantly later career developments. This article gives simple suggestions and general directions of preparing and starting this writing process. Much of these suggestions are based on the author's personal experience as an advisor of graduate studies and from sitting on dissertation committees in different roles.
+Dissertation proposal is the first step of the formal dissertation process. Starting well is a good indicator of success not just in finishing an academic document but more importantly in later career developments. This article gives simple suggestions and general directions of preparing and starting this writing process. Much of these suggestions are based on the author's personal experience as an advisor of graduate studies and from sitting on dissertation committees in different roles.
 
 In general, four steps: planning, research, writing and defense.
 
@@ -43,19 +42,24 @@ In general, four steps: planning, research, writing and defense.
 3.  Scaling
     1.  "Prototype"
     2.  Focus
-    3.  Originality         
+    3.  Originality
 
 # III. Writing
 
-1.  MUST WRITE WELL
-    -   Personal suggestions (particularly for international students):
-        -   Avoid long sentences (KISS)
-        -   Avoid personal
-            -   e.g. use this study instead of "I"
-        -   Use active voice
-        -   Pay attention to numbers use nine instead of 9.
-    -   Aesthetics: simple, clean, consistent
-2.  Unforgivable mistakes
+-   MUST WRITE WELL
+    -   Use all tools and techniques
+    -   Read multiple times:
+        -   Style manual (e.g. how to cite, how to build reference list, how to use numbers, sentences)
+        -   [Elements of Style](www.jlakes.org/ch/web/The-elements-of-style.pdf) by William Strunk Jr. and E. B. White (also available [here](www.gutenberg.org/ebooks/37134))
+        -   Do everything you can, e.g. attend workshop, start a project to build writing skills
+        -   Personal suggestions (particularly for international students):
+            -   Avoid long sentences (KISS)
+            -   Avoid personal
+                -   e.g. use this study instead of "I"
+            -   Use active voice
+            -   Pay attention to numbers use nine instead of 9.
+            -   Aesthetics: simple, clean, consistent
+-   Unforgivable mistakes
     -   Spelling
     -   Grammar
     -   Missing page numbers
@@ -65,7 +69,7 @@ In general, four steps: planning, research, writing and defense.
 
 # IV. Defense
 
-1.  Do your own paperworks 
+1.  Do your own paperworks
     -   It is your responsibility, not your chair's
     -   Know the rules (OGE, EPPS Dean's office)
 2.  Leave ample room to committee members to read and advise
@@ -73,7 +77,7 @@ In general, four steps: planning, research, writing and defense.
     -   Send to committee at least two weeks in advance
     -   Schedule individual meetings with members at least one week in advance to the defense
 
-# V. Next steps forward
+# V. Moving forward
 
 -   Meet with chair regularly
 -   Produce content weekly
@@ -85,7 +89,7 @@ In general, four steps: planning, research, writing and defense.
 -   [Mendeley](www.mendeley.com)
 -   [Litmap](www.litmaps.com)
 -   [Publish or Perish](harzing.com/resources/publish-or-perish)
--   [Google Scholar ](scholar.google.com/)
+-   [Google Scholar](scholar.google.com/)
 -   [Semantic Scholar](https://www.semanticscholar.org/)
 
 Sample Structure I (full, multi-chapter, adapted from UCLA):
@@ -93,17 +97,16 @@ Sample Structure I (full, multi-chapter, adapted from UCLA):
 1.  Title
 2.  Abstract
 3.  Introduction
-4.  Motivation
+4.  Motivation/Statement of the Problem
 5.  Hypotheses
 6.  Review of Literature
-7.  (Statement of the Problem/RQ)
-8.  (Theoretical/Conceptual Framework)
-9.  Data
-10. Methods
-11. (Preliminary Results)
-12. (Significance/Implications)
-13. Timeline
-14. References
+7.  (Theoretical/Conceptual Framework)
+8.  Data
+9.  Methods
+10. (Preliminary Results)
+11. (Significance/Implications)
+12. Timeline
+13. References
 
 Sample Structure II (UTD Three paper format)
 
@@ -113,18 +116,17 @@ Sample Structure II (UTD Three paper format)
     3.  Introduction
     4.  Hypotheses
     5.  Review of Literature
-    6.  (Statement of the Problem/RQ)
-    7.  (Theoretical/Conceptual Framework)
-    8.  Data
-    9.  Methods
-    10. (Preliminary Results)
-    11. (Significance/Implications)
-    12. Timeline
-    13. References
+    6.  (Theoretical/Conceptual Framework)
+    7.  Data
+    8.  Methods
+    9.  (Preliminary Results)
+    10. (Significance/Implications)
+    11. Timeline
+    12. References
 
 [***The three papers need be coherent while each be independent.***]{.underline}
 
 References:
 
-[Preparation of Dissertation and Thesis](https://graduate.utdallas.edu/current_students/dissertation_and_thesis/), UTD Office of Graduate Education Terrell, Steven R. *Writing a proposal for your dissertation: Guidelines and examples*. Guilford Publications, 2022. [Writing the Social Sciences Dissertation Proposal](https://gwc.gsrc.ucla.edu/workshop-videos/soc-sci-proposal), UCLA Graduate Writing Center
-
+[Preparation of Dissertation and Thesis](https://graduate.utdallas.edu/current_students/dissertation_and_thesis/)
+UTD Office of Graduate Education Terrell, Steven R. *Writing a proposal for your dissertation: Guidelines and examples*. Guilford Publications, 2022. [Writing the Social Sciences Dissertation Proposal](https://gwc.gsrc.ucla.edu/workshop-videos/soc-sci-proposal), UCLA Graduate Writing Center
