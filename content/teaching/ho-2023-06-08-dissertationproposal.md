@@ -128,6 +128,6 @@ Sample Structure II (UTD Three paper format)
 
 References:
 
-[Preparation of Dissertation and Thesis](https://graduate.utdallas.edu/current_students/dissertation_and_thesis/)UTD Office of Graduate Education 
+[Preparation of Dissertation and Thesis](https://graduate.utdallas.edu/current_students/dissertation_and_thesis/) UTD Office of Graduate Education 
 Terrell, Steven R. *Writing a proposal for your dissertation: Guidelines and examples*. Guilford Publications, 2022. 
 [Writing the Social Sciences Dissertation Proposal](https://gwc.gsrc.ucla.edu/workshop-videos/soc-sci-proposal), UCLA Graduate Writing Center
