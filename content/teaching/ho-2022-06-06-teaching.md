@@ -1,11 +1,12 @@
 ---
 title: "Courses"
-date: 2022-06-06T13:00:00
+date: 2023-09-06T13:00:00
 ---
 
 ### Social Data Analytics and Research (SDAR)
 
-- Data Methods (Data Collection and Production)
+- Computational Social Science
+- Methods of Data Collection and Production 
 - Data Visualization
 - Knowledge Mining (Machine Learning in Social Sciences)
 - Information Management (Database in Social Sciences)
