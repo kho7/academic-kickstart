@@ -18,7 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Associate Professor of Instruction"
+  title = "Professor of Instruction"
   company = "School of Economic, Political and Policy Sciences, University of Texas at Dallas"
   company_url = "https://epps.utdallas.edu"
   location = "Texas"
